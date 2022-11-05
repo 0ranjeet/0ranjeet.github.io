@@ -696,7 +696,7 @@ input{
   display: block;
 }
 #edu{
-  margin: 4% 5%;
+  margin: 4% auto;
   text-align: center;
 }
 #skill{
