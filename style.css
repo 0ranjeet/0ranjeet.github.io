@@ -52,6 +52,7 @@ i,a:hover:after{
     border: 1px solid #116466;
     box-shadow: 0 0 35px #116466;
     transition: all 200ms ease-out;
+    z-index: 5;
     position: fixed;
     pointer-events: none;
     left: 0;
@@ -70,6 +71,7 @@ i,a:hover:after{
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: width .3s, height .3s, opacity .3s;
+    z-index: 5;
   }
   
   .hover {
