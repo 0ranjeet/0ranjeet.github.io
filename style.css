@@ -49,8 +49,8 @@ i,a:hover:after{
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    border: 1px solid #116466;
-    box-shadow: 0 0 35px #116466;
+    border: 3px solid #116466;
+    box-shadow: 0 0 55px #116466;
     transition: all 200ms ease-out;
     z-index: 5;
     position: fixed;
@@ -65,7 +65,7 @@ i,a:hover:after{
     height: 20px;
     border-radius: 100%;
     background-color: #116466;
-    box-shadow: 0 0 30px #D9b08c;
+    box-shadow:  0 0px 30px #D9b08c;
     opacity: 3;
     position: fixed;
     transform: translate(-50%, -50%);
@@ -75,7 +75,7 @@ i,a:hover:after{
   }
   
   .hover {
-    background-color: #116466;
+    background-color:transparent;
     opacity: 0.5;
   }
   
@@ -285,11 +285,12 @@ box-shadow: 0 0 15px #116466;
   border-radius: 30px;
   padding: 4%;
   color:black;
-background: rgba(107, 222, 233, 0.38);
+  background: rgb(34, 170, 182);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(2.6px);
 -webkit-backdrop-filter: blur(2.6px);
+
 border: 1px solid rgba(107, 222, 233, 0.3);
 box-shadow: 0 0 15px #d9b08c
 }
@@ -312,16 +313,24 @@ gap: 50px;
 }
 .ss{
  color:black;
-background: rgba(107, 222, 233, 0.38);
+ background: rgba(57, 220, 220, 0.437);
+ box-shadow: 0 0 25px #116466;
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(2.6px);
 -webkit-backdrop-filter: blur(2.6px);
-border: 1px solid rgba(107, 222, 233, 0.3);
  padding: 15px;
  border-radius: 25px;
  font-weight: 700;
- box-shadow: 0 0 15px #d9b08c;
+}
+.ss:hover{
+  border-radius: 16px;
+  background: rgb(34, 170, 182);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.6px);
+-webkit-backdrop-filter: blur(2.6px);
+border: 1px solid rgba(107, 222, 233, 0.3);
+  box-shadow: rgba(217,176,140, 0.789) -5px 5px, rgba(217,176,140, 0.3) -10px 10px, rgba(217,176,140, 0.2) -15px 15px, rgba(217,176,140, 0.1) -20px 20px, rgba(217,176,140, 0.05) -25px 25px;
 }
 #edu {
 box-shadow: 0 0 15px #116466;
@@ -358,19 +367,22 @@ width: 70%;
   margin: 3%;
   padding: 1%;
   border-radius: 20px;
-background: rgba(107, 222, 233, 0.38);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.6px);
--webkit-backdrop-filter: blur(2.6px);
-border: 1px solid rgba(107, 222, 233, 0.3);
-  box-shadow: rgba(217,176,140, 0.789) -5px 5px, rgba(217,176,140, 0.3) -10px 10px, rgba(217,176,140, 0.2) -15px 15px, rgba(217,176,140, 0.1) -20px 20px, rgba(217,176,140, 0.05) -25px 25px;
+  background: rgba(57, 220, 220, 0.437);
+  box-shadow: 0 0 25px #116466;
+
+
 }
 .projectd a{
   color: #2c3531;
 }
 .projectd:hover{
-  transform: scale(1.1, 1.1);
+  border-radius: 16px;
+  background: rgb(34, 170, 182);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.6px);
+-webkit-backdrop-filter: blur(2.6px);
+border: 1px solid rgba(107, 222, 233, 0.3);
+  box-shadow: rgba(217,176,140, 0.789) -5px 5px, rgba(217,176,140, 0.3) -10px 10px, rgba(217,176,140, 0.2) -15px 15px, rgba(217,176,140, 0.1) -20px 20px, rgba(217,176,140, 0.05) -25px 25px;
 }
 #calen{
   margin: 7%;
@@ -677,7 +689,6 @@ input{
   .sidenav a {font-size: 18px;}
   *{
     font-size: 13px;
-    text-align: center;
   }
   h1{
     font-size: 20px;
@@ -717,7 +728,7 @@ input{
   display: block;
 }
 #cc{
-  margin:  7% 25%;
+  margin:  7% auto;
   font-size: 15px;
 }
 #sndmail{
