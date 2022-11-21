@@ -37,10 +37,6 @@ function sendmail(){
 Swal.fire({
   title: 'welcome',
   text: 'So glad to see you😊',
-  imageUrl: 'https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=007A03&width=435&height=80&lines=WELCOME',
-  imageWidth: 400,
-  imageHeight: 200,
-  imageAlt: 'Custom image',
   timer: 1500
 })
 
