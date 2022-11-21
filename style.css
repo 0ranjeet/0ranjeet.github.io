@@ -7,6 +7,11 @@
 font-family: 'Rajdhani', sans-serif;
   }
   
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 /* Custom width for the Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
