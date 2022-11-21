@@ -169,7 +169,7 @@ i,a:hover:after{
  justify-content: space-between;
  padding: 2%;
  z-index:5;
- width:95%;
+ width:96%;
  background: rgba(255, 255, 255, 0);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(12.1px);
