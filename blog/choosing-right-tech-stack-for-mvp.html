@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="human">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choosing the Right Tech Stack for Your MVP — A Business Owner's Guide</title>
+  <meta name="description" content="The wrong tech stack doesn't just slow you down — it can kill an MVP before it finds product-market fit. Here's how to think about stack decisions before writing a single line of code." />
+  <meta name="keywords" content="MVP tech stack, choosing technology for startup, best stack for MVP, startup technology decisions, React vs Vue MVP, Node.js MVP, build MVP 2025" />
+  <meta name="author" content="Ranjeet Sahoo" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://0ranjeet.github.io/blog/choosing-right-tech-stack-for-mvp.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Choosing the Right Tech Stack for Your MVP — A Business Owner's Guide" />
+  <meta property="og:description" content="The wrong tech stack doesn't just slow you down — it can kill an MVP before it finds product-market fit. Here's how to think about stack decisions before writing a single line of code." />
+  <meta property="og:url" content="https://0ranjeet.github.io/blog/choosing-right-tech-stack-for-mvp.html" />
+  <meta property="og:site_name" content="Ranjeet Sahoo — Business Systems Architect" />
+  <meta property="article:published_time" content="2025-06-14T00:00:00Z" />
+  <meta property="article:author" content="Ranjeet Sahoo" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ranjeetsahoo007" />
+  <meta name="twitter:title" content="Choosing the Right Tech Stack for Your MVP — A Business Owner's Guide" />
+  <meta name="twitter:description" content="The wrong tech stack doesn't just slow you down — it can kill an MVP before it finds product-market fit." />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Choosing the Right Tech Stack for Your MVP — A Business Owner's Guide",
+    "description": "The wrong tech stack doesn't just slow you down — it can kill an MVP before it finds product-market fit. Here's how to think about stack decisions before writing a single line of code.",
+    "author": {
+      "@type": "Person",
+      "name": "Ranjeet Sahoo",
+      "url": "https://0ranjeet.github.io",
+      "jobTitle": "Business Systems Architect"
+    },
+    "publisher": { "@type": "Person", "name": "Ranjeet Sahoo" },
+    "datePublished": "2025-06-14",
+    "dateModified": "2025-06-14",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://0ranjeet.github.io/blog/choosing-right-tech-stack-for-mvp.html"
+    },
+    "keywords": "MVP tech stack, choosing technology for startup, best stack for MVP, startup technology decisions"
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Blog theme (AI ↔ Human) — must run before paint -->
+  <script src="blog-theme.js"></script>
+  <link rel="stylesheet" href="blog-theme.css" />
+
+  <style>
+    /* ── Article-specific styles ── */
+
+    /* Decision matrix table */
+    .decision-table {
+      width: 100%; border-collapse: collapse;
+      margin: 24px 0 32px; font-size: 0.85rem;
+      border-radius: 10px; overflow: hidden;
+      border: 1px solid var(--border);
+      position: relative; z-index: 1;
+    }
+
+    .decision-table th {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.8px; color: var(--muted);
+      padding: 12px 16px; text-align: left;
+      background: var(--card); border-bottom: 1px solid var(--border);
+    }
+
+    .decision-table td {
+      padding: 12px 16px; border-bottom: 1px solid var(--border); color: var(--text);
+    }
+
+    .decision-table tbody tr:last-child td { border-bottom: none; }
+    .decision-table tbody tr:hover { background: var(--tag-bg); }
+
+    /* Tier cards for stack recommendations */
+    .tier-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px; margin: 24px 0 32px;
+    }
+
+    .tier-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 22px;
+      transition: border-color 0.2s, transform 0.2s;
+      position: relative; z-index: 1;
+    }
+
+    .tier-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+
+    .tier-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.8px;
+      color: var(--accent); margin-bottom: 8px;
+    }
+
+    .tier-title {
+      font-family: var(--font-heading);
+      font-size: 1rem; font-weight: 700;
+      color: var(--heading); margin-bottom: 10px;
+    }
+
+    .tier-stack {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px;
+    }
+
+    .tier-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem; padding: 3px 9px;
+      background: var(--tag-bg); border: 1px solid var(--tag-border);
+      color: var(--accent); border-radius: 4px;
+    }
+
+    .tier-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+
+    /* Mistake cards */
+    .mistake-list {
+      display: flex; flex-direction: column; gap: 14px;
+      margin: 24px 0 32px;
+    }
+
+    .mistake-item {
+      display: flex; gap: 14px; align-items: flex-start;
+      padding: 18px; background: var(--card);
+      border: 1px solid var(--border); border-radius: 10px;
+      position: relative; z-index: 1;
+    }
+
+    .mistake-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.1rem; font-weight: 700;
+      color: var(--accent); min-width: 28px; line-height: 1;
+      margin-top: 2px;
+    }
+
+    .mistake-content h4 {
+      font-family: var(--font-heading);
+      font-size: 0.95rem; font-weight: 700;
+      color: var(--heading); margin-bottom: 6px;
+    }
+
+    .mistake-content p { font-size: 0.88rem; color: var(--muted); line-height: 1.6; margin: 0; }
+
+    /* Checklist */
+    .checklist {
+      list-style: none; margin: 16px 0 28px;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+
+    .checklist li {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 0.92rem; color: var(--text); padding-left: 0;
+    }
+
+    .checklist li::before {
+      content: '□';
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent); font-size: 1rem;
+      flex-shrink: 0; margin-top: 1px;
+    }
+
+    @media (max-width: 640px) {
+      .tier-grid { grid-template-columns: 1fr; }
+      .decision-table th:nth-child(3),
+      .decision-table td:nth-child(3) { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="progress-bar"></div>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">&lt;RS/&gt;</a>
+    <div class="nav-right">
+      <span class="nav-title">Right Tech Stack for Your MVP</span>
+      <button class="blog-theme-toggle" onclick="blogToggleTheme()" title="Switch AI / Human theme" aria-label="Toggle theme">
+        <span class="btt-label" id="btt-label">Human</span>
+        <div class="btt-track"><div class="btt-thumb"></div></div>
+      </button>
+      <a href="../index.html" class="nav-back">← Portfolio</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="article-meta">
+      <span class="tag">MVP Strategy</span>
+      <span class="tag alt">Tech Decisions</span>
+      <span class="meta-dot">·</span>
+      <span class="meta-text">June 14, 2025</span>
+      <span class="meta-dot">·</span>
+      <span class="meta-text">9 min read</span>
+    </div>
+
+    <h1 class="article-title">Choosing the Right Tech Stack for Your MVP — A Business Owner's Guide</h1>
+
+    <p class="article-lead">The wrong tech stack doesn't just slow you down — it can kill an MVP before it finds product-market fit. Here's how to think about stack decisions before writing a single line of code.</p>
+
+    <article class="article-content">
+
+      <h2>Why the Stack Decision Matters More Than You Think</h2>
+
+      <p>Most business owners treat the tech stack as a developer problem. "Just use whatever works best," they say. That's a mistake — and an expensive one. The tech stack decision directly affects your cost to build, cost to scale, how fast you can hire, and how easy it is to pivot when your first assumptions about the market turn out to be wrong.</p>
+
+      <p>An MVP built on the wrong foundation forces a rewrite just when you start gaining traction. I've seen this happen twice in the last year alone: a food-delivery startup that built on a serverless-only architecture and hit latency walls the moment they added real-time order tracking, and a hotel management SaaS that chose a document database for a system that was fundamentally relational. Both rewrites cost more than the original builds.</p>
+
+      <p>This guide is written for founders and business owners — not developers. You don't need to understand every technology, but you need to understand the trade-offs well enough to ask the right questions and recognise when you're getting bad advice.</p>
+
+      <h2>The 5 Questions That Should Drive Every Stack Decision</h2>
+
+      <p>Before any technical conversation, answer these five questions. The answers will eliminate most of the noise.</p>
+
+      <div class="mistake-list">
+        <div class="mistake-item">
+          <div class="mistake-num">01</div>
+          <div class="mistake-content">
+            <h4>What does your data look like — structured or flexible?</h4>
+            <p>Bookings, invoices, users, transactions, roles — this is relational, structured data. Use a relational database (MySQL, PostgreSQL). Content, logs, documents, variable product configurations — this is document data. Use MongoDB or Firestore. Mixing them up is where most MVPs go wrong at the data layer.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">02</div>
+          <div class="mistake-content">
+            <h4>How fast do you need to ship your first working version?</h4>
+            <p>If you need to validate in 6–8 weeks, choose boring, proven technology. React + Node.js + MySQL has millions of developers, thousands of tutorials, and well-understood patterns for every problem you'll encounter. Trying an exciting new framework at MVP stage is a distraction, not an advantage.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">03</div>
+          <div class="mistake-content">
+            <h4>Will you hire developers later, or rely on one person?</h4>
+            <p>A solo developer can work in any stack they're comfortable with. But if you plan to hire, the talent pool matters. React developers are abundant and affordable. Svelte developers are excellent but scarce. If your MVP becomes a product, you'll need to hire people who can maintain it.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">04</div>
+          <div class="mistake-content">
+            <h4>Is real-time interaction a core feature, or a nice-to-have?</h4>
+            <p>Real-time (live chat, notifications, order tracking, collaborative editing) requires a different architecture than request-response. If it's core, design for it from day one — WebSockets, Server-Sent Events, or a service like Pusher. If it's not core, don't over-engineer for it.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">05</div>
+          <div class="mistake-content">
+            <h4>What's your expected traffic pattern — steady or spiky?</h4>
+            <p>A B2B SaaS used during business hours has predictable load. An event-booking platform or consumer app can spike 100x on launch day. Spiky traffic suits serverless (Vercel, AWS Lambda). Steady workloads suit a traditional server (EC2, Railway, DigitalOcean Droplet) which is simpler to reason about and cheaper at constant load.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Stack Recommendations by MVP Type</h2>
+
+      <p>Based on the answers above, most MVPs fall into a few categories. Here's what I actually recommend building with in 2025:</p>
+
+      <div class="tier-grid">
+        <div class="tier-card">
+          <div class="tier-label">Best for: SaaS / Dashboard / Internal Tool</div>
+          <div class="tier-title">React + Node.js + MySQL</div>
+          <div class="tier-stack">
+            <span class="tier-badge">React</span>
+            <span class="tier-badge">Node.js</span>
+            <span class="tier-badge">Express</span>
+            <span class="tier-badge">MySQL</span>
+            <span class="tier-badge">Vercel / Railway</span>
+          </div>
+          <p class="tier-desc">The most battle-tested web stack in existence. Enormous talent pool, abundant libraries, and clear patterns for auth, payments, and multi-tenancy. If you're not sure what to pick, pick this.</p>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">Best for: Real-time / Marketplace / Platform</div>
+          <div class="tier-title">Next.js + Node.js + PostgreSQL</div>
+          <div class="tier-stack">
+            <span class="tier-badge">Next.js</span>
+            <span class="tier-badge">Node.js</span>
+            <span class="tier-badge">PostgreSQL</span>
+            <span class="tier-badge">Prisma</span>
+            <span class="tier-badge">Vercel</span>
+          </div>
+          <p class="tier-desc">Next.js handles SSR, SEO, and API routes in one framework. PostgreSQL is more powerful than MySQL for complex queries. Good when you need both a marketing site and an app in the same codebase.</p>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">Best for: ERP / Ops / Multi-module System</div>
+          <div class="tier-title">React + Node.js + MySQL + Redis</div>
+          <div class="tier-stack">
+            <span class="tier-badge">React</span>
+            <span class="tier-badge">Node.js</span>
+            <span class="tier-badge">MySQL</span>
+            <span class="tier-badge">Redis</span>
+            <span class="tier-badge">AWS / DigitalOcean</span>
+          </div>
+          <p class="tier-desc">For systems managing inventory, bookings, HR, billing, and reports simultaneously, you need a relational core. Redis handles caching and job queues. Deploy on a persistent server, not serverless.</p>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">Best for: Mobile-first / Consumer App</div>
+          <div class="tier-title">React Native + Node.js + Firebase</div>
+          <div class="tier-stack">
+            <span class="tier-badge">React Native</span>
+            <span class="tier-badge">Expo</span>
+            <span class="tier-badge">Node.js</span>
+            <span class="tier-badge">Firestore</span>
+            <span class="tier-badge">Firebase Auth</span>
+          </div>
+          <p class="tier-desc">One JavaScript codebase for iOS and Android. Firebase gives you auth, real-time database, and push notifications with minimal backend setup. Great for validating a consumer idea quickly.</p>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">Best for: Quick Landing Page / Lead-gen MVP</div>
+          <div class="tier-title">Next.js + Supabase</div>
+          <div class="tier-stack">
+            <span class="tier-badge">Next.js</span>
+            <span class="tier-badge">Supabase</span>
+            <span class="tier-badge">Vercel</span>
+            <span class="tier-badge">Tailwind CSS</span>
+          </div>
+          <p class="tier-desc">Supabase gives you a Postgres database, auth, storage, and REST API out of the box. No separate backend server to manage. Ship a working product in days, not weeks.</p>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-label">Best for: AI-powered Product / Automation</div>
+          <div class="tier-title">Next.js + Python API + PostgreSQL</div>
+          <div class="tier-stack">
+            <span class="tier-badge">Next.js</span>
+            <span class="tier-badge">Python / FastAPI</span>
+            <span class="tier-badge">PostgreSQL</span>
+            <span class="tier-badge">OpenAI API</span>
+            <span class="tier-badge">AWS</span>
+          </div>
+          <p class="tier-desc">If AI/ML is the core value proposition, Python for the AI layer is non-negotiable — the ecosystem is unmatched. Next.js handles the front end. Keep them as separate services communicating via REST.</p>
+        </div>
+      </div>
+
+      <h2>The Technology Decision Matrix</h2>
+
+      <p>Use this as a quick reference when comparing options with your developer:</p>
+
+      <table class="decision-table">
+        <thead>
+          <tr>
+            <th>If you need…</th>
+            <th>Use this</th>
+            <th>Avoid this</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Relational data (users, orders, bookings)</td>
+            <td><strong>MySQL / PostgreSQL</strong></td>
+            <td>MongoDB</td>
+            <td>Joins, transactions, and data integrity are handled by the DB, not your code</td>
+          </tr>
+          <tr>
+            <td>Flexible schema / content management</td>
+            <td><strong>MongoDB / Firestore</strong></td>
+            <td>MySQL</td>
+            <td>Document DBs shine when data shape varies per record</td>
+          </tr>
+          <tr>
+            <td>Fast time to market</td>
+            <td><strong>Node.js + React</strong></td>
+            <td>Rust / Go / Elixir</td>
+            <td>Ecosystem maturity and talent availability dominate early speed</td>
+          </tr>
+          <tr>
+            <td>SEO-critical marketing pages</td>
+            <td><strong>Next.js (SSR/SSG)</strong></td>
+            <td>Plain React SPA</td>
+            <td>Google crawls server-rendered HTML far better than JS-rendered pages</td>
+          </tr>
+          <tr>
+            <td>Mobile app</td>
+            <td><strong>React Native + Expo</strong></td>
+            <td>Native iOS + Android</td>
+            <td>One codebase, faster iteration, same developer can work on web + mobile</td>
+          </tr>
+          <tr>
+            <td>AI / ML features</td>
+            <td><strong>Python + FastAPI</strong></td>
+            <td>Node.js for ML</td>
+            <td>Python's ML ecosystem (PyTorch, scikit-learn, LangChain) has no equivalent</td>
+          </tr>
+          <tr>
+            <td>Serverless / variable traffic</td>
+            <td><strong>Vercel / AWS Lambda</strong></td>
+            <td>Always-on server</td>
+            <td>Pay per request, auto-scale, zero cold-start cost for web workloads</td>
+          </tr>
+          <tr>
+            <td>High-load persistent connections (ERP, real-time)</td>
+            <td><strong>Persistent server (EC2, Railway)</strong></td>
+            <td>Serverless</td>
+            <td>WebSockets and long-running processes don't fit the serverless model</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>The 6 Most Expensive Tech Stack Mistakes I See</h2>
+
+      <p>These are the patterns that consistently cost founders time and money:</p>
+
+      <div class="mistake-list">
+        <div class="mistake-item">
+          <div class="mistake-num">✗</div>
+          <div class="mistake-content">
+            <h4>Using a NoSQL database for inherently relational data</h4>
+            <p>If your data has relationships — customers have orders, orders have line items, line items reference products — you need a relational database. Trying to model that in MongoDB leads to either deeply nested documents (query hell) or manually managing references (which is just SQL, but worse).</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">✗</div>
+          <div class="mistake-content">
+            <h4>Over-engineering for scale you don't have</h4>
+            <p>Microservices, Kubernetes, message queues, event sourcing — these are solutions to problems you don't have yet. A monolith handled WhatsApp at 450 million users. A well-structured monolith will handle your MVP at 10,000 users with zero architectural heroics.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">✗</div>
+          <div class="mistake-content">
+            <h4>Picking the framework your developer is excited about, not the one that fits</h4>
+            <p>Developers are humans. They like learning new things. That's good — unless "new and exciting" means "fewer tutorials, smaller community, and harder to hire for." Validate that the technology choice is driven by your requirements, not your developer's learning goals.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">✗</div>
+          <div class="mistake-content">
+            <h4>Skipping authentication library in favour of custom auth</h4>
+            <p>Rolling your own authentication (session management, password hashing, token rotation, 2FA) is a known source of security vulnerabilities. Use a library — Passport.js, NextAuth, Clerk, or Auth0. The cost of a security breach at MVP stage is existential.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">✗</div>
+          <div class="mistake-content">
+            <h4>Not defining your hosting architecture before you start building</h4>
+            <p>The hosting environment affects how you write code. Serverless functions have execution time limits and no persistent file system. Containerised deployments need Dockerfiles. Decide where the code runs before writing it — not after.</p>
+          </div>
+        </div>
+        <div class="mistake-item">
+          <div class="mistake-num">✗</div>
+          <div class="mistake-content">
+            <h4>Treating the MVP stack as permanent</h4>
+            <p>The best MVPs are designed to be partly thrown away. Write clear boundaries between layers (UI, API, database) so you can replace one without rewriting all three. Good module structure at the MVP stage makes the eventual production rewrite a manageable refactor, not a rebuild from zero.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>How to Evaluate Your Developer's Stack Recommendation</h2>
+
+      <p>When your developer proposes a stack, ask these questions. The quality of the answers tells you a lot about their experience and their alignment with your business goals:</p>
+
+      <ul class="checklist">
+        <li>"Why this database — what's the data model?" A developer who can't sketch the main tables and relationships hasn't thought the architecture through.</li>
+        <li>"What are the failure modes? What breaks at 10x traffic?" Every choice has a limit. A good developer knows theirs.</li>
+        <li>"How do we add [feature X] later — does the architecture support it?" MVP scope will expand. The architecture should anticipate it.</li>
+        <li>"How easy is this stack to hire for?" If you ever need to bring on a second developer, you want options.</li>
+        <li>"What's the estimated monthly infrastructure cost at 1,000 active users? At 10,000?" Cost surprises kill early-stage companies.</li>
+        <li>"What does local development look like — can I run the whole thing on my laptop?" If it needs a complex setup, iteration will be slow.</li>
+      </ul>
+
+      <div class="callout">
+        <div class="callout-label">💡 The Golden Rule</div>
+        <p>The best tech stack for an MVP is the one your developer knows deeply, your problem genuinely requires, and that doesn't require rewriting when you reach 10x your expected users. Boring and proven beats exciting and unproven at this stage.</p>
+      </div>
+
+      <h2>A Real Example: Hotel ERP MVP Stack Decision</h2>
+
+      <p>Here's how I walked through this for a recent hotel management system MVP:</p>
+
+      <p><strong>The business requirements:</strong> Front desk check-in/out, room assignment, restaurant billing, staff scheduling, financial reports. Multi-property support needed in phase 2.</p>
+
+      <p><strong>Stack analysis:</strong> All data is deeply relational — guests, rooms, reservations, bills, staff shifts. Document databases are wrong here. The system runs during hotel operating hours (predictable load) — serverless is overkill. Multiple modules need to share data — a monolith API is simpler than microservices at this scale.</p>
+
+      <p><strong>Decision:</strong> React (admin dashboard) + Node.js/Express (API) + MySQL (database) + Redis (session caching) + DigitalOcean Droplet (hosting). No surprises, no drama — just a system that works and can be extended.</p>
+
+      <p><strong>Result:</strong> Working MVP in 14 weeks. The architecture supported multi-property in phase 2 with a tenant_id column addition, not a rewrite.</p>
+
+      <div class="callout warning">
+        <div class="callout-label">⚠️ What to Watch Out For</div>
+        <p>If a developer recommends a stack you've never heard of, asks for significantly more time or money than comparable projects, or can't explain the data model in plain language — those are red flags worth investigating before you commit. A good developer should be able to explain every choice in terms of your business problem, not just technical preferences.</p>
+      </div>
+
+      <h2>Quick Pre-Build Checklist</h2>
+
+      <p>Before you give the green light to start coding, confirm you have clear answers to all of these:</p>
+
+      <ul class="checklist">
+        <li>Data model sketched — main entities and their relationships are documented</li>
+        <li>Hosting environment decided — serverless vs persistent server</li>
+        <li>Authentication approach confirmed — library or service, not custom-rolled</li>
+        <li>Database type matched to data structure — relational vs document</li>
+        <li>Mobile requirements confirmed — web-only, or native app needed?</li>
+        <li>Estimated infrastructure cost at launch and at scale reviewed</li>
+        <li>Hiring plan considered — is this stack easy to hire for?</li>
+        <li>Deployment pipeline defined — how does code get from laptop to production?</li>
+      </ul>
+
+      <div class="cta-block">
+        <h3>Not sure which stack fits your product?</h3>
+        <p>I help founders and business owners make technology decisions before committing to a build. A 30-minute call can save months of expensive rework.</p>
+        <a href="https://wa.me/918917412728?text=Hi%20Ranjeet%2C%20I%20need%20help%20choosing%20the%20right%20tech%20stack%20for%20my%20MVP" target="_blank" rel="noopener" class="cta-btn">WhatsApp Me →</a>
+      </div>
+
+    </article>
+
+    <!-- Share -->
+    <div class="share-section">
+      <span class="share-label">Share this article</span>
+      <a href="https://twitter.com/intent/tweet?text=Choosing+the+Right+Tech+Stack+for+Your+MVP&url=https://0ranjeet.github.io/blog/choosing-right-tech-stack-for-mvp.html&via=ranjeetsahoo007" target="_blank" rel="noopener" class="share-btn share-twitter">𝕏 Share on Twitter</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://0ranjeet.github.io/blog/choosing-right-tech-stack-for-mvp.html" target="_blank" rel="noopener" class="share-btn share-linkedin">in Share on LinkedIn</a>
+    </div>
+
+    <!-- Author -->
+    <div class="author-card">
+      <div class="author-avatar">RS</div>
+      <div class="author-info">
+        <h4>Ranjeet Sahoo</h4>
+        <div class="author-role">Business Systems Architect & ERP Consultant</div>
+        <p class="author-bio">Business Systems Architect specializing in ERP development, AI automation, and digital transformation for SMEs and enterprises. Available worldwide for remote engagements.</p>
+        <div class="author-links">
+          <a href="https://github.com/0ranjeet" target="_blank" rel="noopener" class="author-link">GitHub</a>
+          <a href="https://linkedin.com/in/007ranjeet" target="_blank" rel="noopener" class="author-link">LinkedIn</a>
+          <a href="https://wa.me/918917412728" target="_blank" rel="noopener" class="author-link">WhatsApp</a>
+          <a href="https://calendly.com/ranjeet0/30min" target="_blank" rel="noopener" class="author-link">Book a Call</a>
+          <a href="../index.html" class="author-link">Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Related -->
+    <div class="related-section">
+      <h3>Related Articles</h3>
+      <div class="related-grid">
+        <a href="build-hotel-erp-system.html" class="related-card">
+          <div class="related-tag">ERP · Tutorial</div>
+          <div class="related-title">How to Build a Hotel ERP System from Scratch (React + Node.js)</div>
+        </a>
+        <a href="how-to-hire-freelance-fullstack-developer.html" class="related-card">
+          <div class="related-tag">Hiring Guide</div>
+          <div class="related-title">How to Hire a Freelance Fullstack Developer (Complete Guide 2025)</div>
+        </a>
+        <a href="ai-tools-for-developers-2025.html" class="related-card">
+          <div class="related-tag">AI &amp; Tools</div>
+          <div class="related-title">Best AI Tools for Developers in 2025 (I Actually Use These)</div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; <span id="footer-year">2025</span> Ranjeet Sahoo · Built with ☕ and Node.js
+  </footer>
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script>
+    // Progress bar
+    const progressBar = document.getElementById('progress-bar');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.width = (docHeight > 0 ? (scrollTop / docHeight) * 100 : 0) + '%';
+      document.getElementById('back-to-top').classList.toggle('visible', scrollTop > 400);
+    });
+    document.getElementById('back-to-top').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    // Sync label after DOM ready
+    document.addEventListener('DOMContentLoaded', function() {
+      var t = document.documentElement.getAttribute('data-theme');
+      var lbl = document.getElementById('btt-label');
+      if (lbl) lbl.textContent = t === 'ai' ? 'AI' : 'Human';
+    });
+  </script>
+</body>
+</html>

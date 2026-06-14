@@ -762,6 +762,176 @@ input{
   font-size: 60px;
  
  }
- 
-   }
+  
+  }
+  
+
+/* ===== UI POLISH ===== */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Enhanced glass cards */
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.3s ease;
+}
+
+.glass:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Service card WhatsApp CTA */
+.svc-wa-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  color: #25d366;
+  border: 1px solid rgba(37, 211, 102, 0.35);
+  background: rgba(37, 211, 102, 0.08);
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s;
+  letter-spacing: 0.03em;
+  backdrop-filter: blur(4px);
+  margin-top: auto;
+  align-self: flex-start;
+}
+.svc-wa-btn:hover {
+  background: #25d366;
+  color: #fff;
+  border-color: #25d366;
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.45);
+  transform: translateY(-2px);
+}
+
+/* Enhanced hero buttons */
+.btn-fill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #ffffff, #888888, #ffffff);
+  color: #000;
+  padding: 13px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+}
+.btn-fill::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0);
+  transition: background 0.2s;
+}
+.btn-fill:hover::before {
+  background: rgba(255, 255, 255, 0.15);
+}
+.btn-fill:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.25), 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.btn-ghost {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 13px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.25s;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(8px);
+  letter-spacing: 0.02em;
+}
+.btn-ghost:hover {
+  border-color: #fff;
+  color: #fff;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), 0 8px 24px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Nav enhancement */
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+.nav-logo {
+  animation: logoGlow 3s ease-in-out infinite;
+}
+@keyframes logoGlow {
+  0%, 100% { text-shadow: 0 0 8px rgba(255, 255, 255, 0.3); }
+  50% { text-shadow: 0 0 18px rgba(255, 255, 255, 0.6); }
+}
+
+/* Section dividers */
+.glow-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  opacity: 0.5;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Smooth anchor offsets */
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+/* WhatsApp float button pulse ring */
+#wa-float::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 50px;
+  border: 2px solid #25d366;
+  opacity: 0;
+  animation: waRing 2.5s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes waRing {
+  0% { inset: -4px; opacity: 0.7; }
+  100% { inset: -18px; opacity: 0; }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .svc-wa-btn {
+    font-size: 9px;
+    padding: 5px 10px;
+  }
+  .btn-fill, .btn-ghost {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
   
