@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ai">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Common Process Bottlenecks in Manufacturing | Ranjeet Sahoo</title>
+<meta name="description" content="A single slow step can stall an entire production line. How to spot bottlenecks early, measure their impact, and fix them with data."/>
+<meta name="keywords" content="manufacturing bottlenecks, process optimization, production line, manufacturing efficiency, bottleneck analysis, manufacturing ERP, lean manufacturing, operational efficiency"/>
+<meta name="author" content="Ranjeet Sahoo"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://0ranjeet.github.io/blog/process-bottlenecks-manufacturing.html"/>
+<link rel="sitemap" type="application/xml" href="/sitemap.xml"/>
+<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://0ranjeet.github.io/blog/process-bottlenecks-manufacturing.html"/>
+<meta property="og:title" content="Common Process Bottlenecks in Manufacturing"/>
+<meta property="og:description" content="A single slow step can stall an entire production line. How to spot bottlenecks early, measure their impact, and fix them with data."/>
+<meta property="og:image" content="https://0ranjeet.github.io/main_photo.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@ranjeetsahoo007"/>
+<meta name="twitter:title" content="Common Process Bottlenecks in Manufacturing"/>
+<meta name="twitter:description" content="A single slow step can stall an entire production line. How to spot bottlenecks early, measure their impact, and fix them with data."/>
+<meta name="twitter:image" content="https://0ranjeet.github.io/main_photo.png"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://0ranjeet.github.io/#person",
+      "name": "Ranjeet Sahoo",
+      "jobTitle": "Business Systems Architect",
+      "url": "https://0ranjeet.github.io/"
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://0ranjeet.github.io/blog/process-bottlenecks-manufacturing.html#blogposting",
+      "headline": "Common Process Bottlenecks in Manufacturing",
+      "description": "A single slow step can stall an entire production line. How to spot bottlenecks early, measure their impact, and fix them with data.",
+      "author": {"@id": "https://0ranjeet.github.io/#person"},
+      "publisher": {"@id": "https://0ranjeet.github.io/#person"},
+      "datePublished": "2025-05-20",
+      "dateModified": "2025-05-20",
+      "mainEntityOfPage": {"@id": "https://0ranjeet.github.io/blog/process-bottlenecks-manufacturing.html#webpage"},
+      "image": {"@type": "ImageObject", "url": "https://0ranjeet.github.io/main_photo.png"}
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#0b0b0c;--bg2:#0e0e10;--bg3:#121214;--card:rgba(255,255,255,0.03);--border:rgba(255,255,255,0.08);--accent:#00ff87;--accent2:#fff;--accent3:#00c8ff;--accentRgb:0,255,135;--accent2Rgb:255,255,255;--text:#e8e8ec;--muted:#9a9aa0;--white:#fff;--nav-bg:rgba(11,11,12,0.85);--shadow:none;--glow:0 0 30px rgba(0,255,135,0.15);--glass:rgba(255,255,255,0.03);--glass-border:rgba(255,255,255,0.08);--gradient:linear-gradient(135deg,#00ff87,#00c8ff)}
+
+/* ===== AI THEME (Strict Terminal) ===== */
+[data-theme="ai"]{--bg:#000000;--bg2:#000000;--bg3:#000000;--card:transparent;--border:#00ff00;--accent:#00ff00;--accentRgb:0,255,0;--text:#00ff00;--muted:#88ff88;--white:#00ff00;--nav-bg:#000000;--shadow:none;--glow:none;--glass:transparent;--glass-border:#00ff00;--gradient:none}
+[data-theme="ai"] *,[data-theme="ai"] *::before,[data-theme="ai"] *::after{font-family:'JetBrains Mono',Consolas,Monaco,monospace!important;background:transparent!important;color:#00ff00!important;box-shadow:none!important;text-shadow:none!important;border-radius:0!important;animation:none!important;transform:none!important;transition:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+[data-theme="ai"] body{background:#000000!important;cursor:auto!important}
+[data-theme="ai"] a,[data-theme="ai"] a *{color:#ffffff!important;text-decoration:underline!important;font-weight:bold!important}
+[data-theme="ai"] a:hover,[data-theme="ai"] a:hover *{background:#00ff00!important;color:#000000!important;text-decoration:underline!important}
+[data-theme="ai"] h1,[data-theme="ai"] h2,[data-theme="ai"] h3,[data-theme="ai"] h4,[data-theme="ai"] h5,[data-theme="ai"] h6{color:#00ff00!important;border-bottom:1px dashed #00ff00!important;padding-bottom:5px!important;margin-top:1.5rem!important;margin-bottom:1rem!important;text-transform:uppercase!important}
+[data-theme="ai"] .glass,[data-theme="ai"] .article-header,[data-theme="ai"] .contact-form{border:1px solid #00ff00!important;background:#000000!important;padding:1.5rem!important;margin-bottom:1rem!important;border-radius:0!important}
+[data-theme="ai"] .btn-fill,[data-theme="ai"] .btn-ghost,[data-theme="ai"] .f-btn,[data-theme="ai"] .ide-btn{border:1px solid #00ff00!important;background:transparent!important;color:#00ff00!important;padding:8px 16px!important;text-align:center!important;display:inline-block!important;text-decoration:none!important;cursor:pointer!important}
+[data-theme="ai"] .human-blobs,[data-theme="ai"] .blob,[data-theme="ai"] .hero-badge,[data-theme="ai"] #particles-js,[data-theme="ai"] .bg-grid{display:none!important}
+[data-theme="ai"] .theme-toggle-track,[data-theme="ai"] .theme-toggle-thumb{display:none!important}
+[data-theme="ai"] .theme-toggle{border:1px solid #00ff00!important;padding:4px 8px!important}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:16px;line-height:1.75;overflow-x:hidden}
+a{color:var(--accent);text-decoration:none}
+.container{max-width:800px;margin:0 auto;padding:0 1.5rem}
+nav{position:fixed;top:0;left:0;right:0;z-index:500;height:64px;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;background:var(--nav-bg);border-bottom:1px solid var(--glass-border);backdrop-filter:blur(24px)}
+.nav-logo{font-family:'JetBrains Mono',monospace;font-size:14px;color:var(--accent);text-decoration:none;font-weight:700}
+.nav-links{display:flex;gap:0.15rem;list-style:none;align-items:center}
+.nav-links a{font-size:11px;color:var(--muted);text-decoration:none;padding:6px 12px;border-radius:6px;transition:color 0.2s}
+.nav-links a:hover,.nav-links a.active{color:var(--accent)}
+.nav-right{display:flex;align-items:center;gap:0.75rem}
+.theme-toggle{display:flex;align-items:center;gap:6px;background:var(--glass);border:1px solid var(--glass-border);border-radius:30px;padding:5px 10px;cursor:pointer}
+.theme-toggle-label{font-size:10px;color:var(--accent);letter-spacing:0.06em;user-select:none}
+.theme-toggle-track{width:36px;height:18px;background:rgba(var(--accentRgb),0.15);border:1px solid var(--accent);border-radius:9px;position:relative;transition:background 0.3s}
+.theme-toggle-thumb{width:12px;height:12px;background:var(--accent);border-radius:50%;position:absolute;top:2px;left:2px;transition:left 0.3s;box-shadow:var(--glow)}
+[data-theme="human"] .theme-toggle-thumb{left:20px}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;border:none;background:none}
+.hamburger span{display:block;width:22px;height:2px;background:var(--text);border-radius:2px;transition:transform 0.25s,opacity 0.25s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;inset:64px 0 0;background:var(--bg2);z-index:400;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem;border-top:1px solid var(--glass-border)}
+.mobile-menu.open{display:flex}
+.mobile-menu a{font-size:1rem;color:var(--text);text-decoration:none;padding:12px 32px;border-radius:8px}
+.mobile-menu a:hover{color:var(--accent)}
+section{padding:6rem 0;position:relative}
+.article-header{background:var(--bg2);padding:7rem 0 4rem;border-bottom:1px solid var(--glass-border);margin-top:64px}
+.article-meta{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:1.25rem}
+.article-cat{font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 12px;border-radius:20px;font-weight:700;letter-spacing:0.06em;background:rgba(var(--accentRgb),0.1);border:1px solid rgba(var(--accentRgb),0.22);color:var(--accent)}
+.article-date{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted)}
+.article-title{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;color:var(--white);line-height:1.25;margin-bottom:1.25rem;font-family:'Syne',sans-serif}
+.article-lead{font-size:1.15rem;color:var(--muted);max-width:680px;line-height:1.7}
+.article-body{max-width:720px}
+.article-body h2{font-size:1.5rem;font-weight:700;color:var(--white);margin:2.75rem 0 1rem;font-family:'Syne',sans-serif}
+.article-body h3{font-size:1.15rem;font-weight:700;color:var(--white);margin:2rem 0 0.75rem;font-family:'Syne',sans-serif}
+.article-body p{color:var(--muted);margin-bottom:1.25rem;font-size:15px;line-height:1.85}
+.article-body ul{color:var(--muted);margin:0 0 1.25rem 1.5rem}
+.article-body ul li{margin-bottom:0.5rem;line-height:1.7}
+.article-body blockquote{border-left:3px solid var(--accent);padding:1rem 1.5rem;margin:2rem 0;background:var(--card);border-radius:0 12px 12px 0;color:var(--text);font-style:italic}
+.article-body .highlight{background:rgba(var(--accentRgb),0.08);border:1px solid rgba(var(--accentRgb),0.18);border-radius:12px;padding:1.5rem;margin:2rem 0;color:var(--text)}
+.article-body .highlight-title{font-size:11px;color:var(--accent);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.75rem}
+.back-link{display:inline-flex;align-items:center;gap:8px;color:var(--muted);font-size:13px;margin-top:3rem;transition:color 0.2s}
+.back-link:hover{color:var(--accent)}
+footer{border-top:1px solid var(--glass-border);padding:2.5rem 2rem;text-align:center;font-size:11px;color:var(--muted);font-family:'JetBrains Mono',monospace}
+[data-theme="human"] body{background:linear-gradient(-45deg,#fceade,#e8f6f3,#ebf5fb,#fbf0fa);background-size:400% 400%;animation:ghibliSky 25s ease infinite}
+[data-theme="human"]{--bg:transparent;--bg2:rgba(254,250,245,0.45);--bg3:rgba(250,236,214,0.6);--card:rgba(255,252,245,0.75);--border:rgba(180,100,40,0.12);--accent:#d4631a;--accent2:#8b35c8;--accent3:#1a8b6b;--accentRgb:212,99,26;--accent2Rgb:139,53,200;--text:#2c1a0a;--muted:#6e4a2d;--white:#2c1a0a;--nav-bg:rgba(254,250,245,0.7);--glass:rgba(255,252,245,0.7);--glass-border:rgba(180,100,40,0.2);--gradient:linear-gradient(135deg,#d4631a,#8b35c8,#1a8b6b)}
+[data-theme="human"] a{color:var(--accent)}
+[data-theme="human"] .article-title,[data-theme="human"] .article-body h2,[data-theme="human"] .article-body h3{color:var(--white)}
+@keyframes ghibliSky{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+@media(max-width:960px){.nav-links,.nav-cv{display:none}.hamburger{display:flex}.mobile-menu.open{display:flex}section{padding:4rem 0}.article-header{padding:5rem 0 3rem}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="nav-logo">&lt;RS/&gt;</a>
+  <ul class="nav-links">
+    <li><a href="../index.html#home">Home</a></li>
+    <li><a href="../index.html#about">About</a></li>
+    <li><a href="../index.html#services">Services</a></li>
+    <li><a href="../index.html#projects">Projects</a></li>
+    <li><a href="../index.html#blog">Blog</a></li>
+    <li><a href="../index.html#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Switch AI / Human theme">
+      <span class="theme-toggle-label" id="themeLabel">AI</span>
+      <div class="theme-toggle-track"><div class="theme-toggle-thumb"></div></div>
+    </div>
+    <button class="hamburger" id="ham" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mmenu">
+  <a href="../index.html#home" onclick="closeMenu()">Home</a>
+  <a href="../index.html#about" onclick="closeMenu()">About</a>
+  <a href="../index.html#services" onclick="closeMenu()">Services</a>
+  <a href="../index.html#projects" onclick="closeMenu()">Projects</a>
+  <a href="../index.html#blog" onclick="closeMenu()">Blog</a>
+  <a href="../index.html#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<header class="article-header">
+  <div class="container">
+    <div class="article-meta">
+      <span class="article-cat">Manufacturing</span>
+      <span class="article-date">May 20, 2025</span>
+      <span class="article-date">11 min read</span>
+    </div>
+    <h1 class="article-title">Common Process Bottlenecks in Manufacturing</h1>
+    <p class="article-lead">A single slow step can stall an entire production line. How to spot bottlenecks early, measure their impact, and fix them with data.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container article-body">
+    <p>In manufacturing, throughput is everything. A production line moves at the speed of its slowest operation — which means a single bottleneck can reduce your entire output by 30–50% without anyone noticing until the numbers appear on a weekly report. By then, orders are late, customers are unhappy, and cash flow is suffering.</p>
+
+    <h2>Understanding Bottlenecks: Theory of Constraints</h2>
+    <p>The foundation of bottleneck analysis comes from Eliyahu Goldratt's Theory of Constraints: every system has exactly one constraint that limits its throughput. Improving non-constraint operations doesn't increase output — only fixing the constraint does. This principle applies whether you're running a small-batch workshop or a multi-line factory.</p>
+    <p>The challenge is that bottlenecks shift. The slowest operation today might not be the slowest one next month. Demand patterns change, new SKUs get added, equipment ages, and staffing levels fluctuate. Maintaining optimal throughput requires continuous monitoring and rapid response.</p>
+
+    <h2>Common Manufacturing Bottlenecks</h2>
+    <h3>1. Machine Capacity Constraints</h3>
+    <p>A single CNC machine, packaging unit, or quality inspection station operating at 100% utilization creates a queue upstream and idle time downstream. The machine isn't broken — it's just the one operation that takes longer than any other in the sequence.</p>
+
+    <h3>2. Labor-Intensive Manual Steps</h3>
+    <p>Operations that require hand assembly, manual inspection, or complex setups often become bottlenecks simply because human speed has natural limits. These steps are also hardest to balance because training new staff takes time and quality varies between operators.</p>
+
+    <h3>3. Material Supply Delays</h3>
+    <p>External bottlenecks from suppliers — late raw material deliveries, quality rejections from vendors, or long procurement cycles — halt production before it even starts. Unlike internal bottlenecks, supplier issues require relationship management and contract optimization, not just process fixes.</p>
+
+    <h3>4. Quality Control Gatekeeping</h3>
+    <p>When quality inspection happens only at the end of a long production sequence, defects discovered late create rework cycles that block the entire line. In-process quality checks distributed throughout production catch issues earlier and prevent bottleneck formation.</p>
+
+    <h3>5. Information and Communication Delays</h3>
+    <p>Believe it or not, one of the most common modern bottlenecks is information flow. When production teams don't have real-time access to order priorities, inventory levels, or machine status, they make local decisions that create global inefficiencies. An ERP with live shop-floor data eliminates this entirely.</p>
+
+    <h2>How to Measure and Identify Bottlenecks</h2>
+    <ul>
+      <li><strong>Track cycle times per operation</strong> — the operation with the longest average cycle time is your primary bottleneck.</li>
+      <li><strong>Monitor work-in-progress (WIP)</strong> — buildup of WIP at any stage signals that the next operation can't keep up.</li>
+      <li><strong>Measure actual vs. theoretical throughput</strong> — the gap tells you how much your bottleneck is costing you.</li>
+      <li><strong>Use value stream mapping</strong> — visualize your entire process flow and identify non-value-added waiting time.</li>
+    </ul>
+
+    <h2>Resolving Bottlenecks With Technology</h2>
+    <p>The traditional fix — adding more machines or more workers at the constraint point — works in the short term but doesn't address the root cause. A better approach combines process redesign with real-time monitoring systems that alert you before bottlenecks form.</p>
+    <p>Manufacturing ERP systems with shop-floor tracking modules provide live visibility into each operation's status. When a machine starts slowing down, the system can alert supervisors, trigger preventive maintenance, or redistribute work across shifts — before the slowdown becomes a production stoppage.</p>
+
+    <blockquote>A bottleneck that is measured is a bottleneck that can be managed. A bottleneck that is invisible is a profit leak you won't find until the quarterly report.</blockquote>
+
+    <div class="highlight">
+      <div class="highlight-title">Key Takeaway</div>
+      Manufacturing bottlenecks aren't just operational problems — they're strategic ones. Every hour of lost throughput is a direct hit to revenue and customer trust. The solution is continuous monitoring, rapid detection, and systems that give you visibility before issues become crises.
+    </div>
+
+    <a href="../index.html#blog" class="back-link">&larr; Back to all articles</a>
+  </div>
+</section>
+
+<footer>
+  <p>Crafted with precision by Ranjeet Sahoo &mdash; <span id="footer-year">2025</span> &middot; Available worldwide</p>
+</footer>
+
+<script>
+function toggleTheme(){const e=document.documentElement,t=e.getAttribute("data-theme"),n=t==="ai"?"human":"ai";e.setAttribute("data-theme",n),document.getElementById("themeLabel").textContent=n==="ai"?"AI":"Human",localStorage.setItem("rs-theme",n)}
+function toggleMenu(){const e=document.getElementById("ham"),t=document.getElementById("mmenu");e.classList.toggle("open"),t.classList.toggle("open")}
+function closeMenu(){document.getElementById("ham").classList.remove("open"),document.getElementById("mmenu").classList.remove("open")}
+(function(){const e=localStorage.getItem("rs-theme")||"ai";document.documentElement.setAttribute("data-theme",e);const t=document.getElementById("themeLabel");t&&(t.textContent=e==="ai"?"AI":"Human")})();
+document.getElementById("footer-year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>

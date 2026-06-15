@@ -22,36 +22,71 @@
 
   <!-- Blog posts -->
   <url>
-    <loc>https://0ranjeet.github.io/blog/choosing-right-tech-stack-for-mvp.html</loc>
+    <loc>https://0ranjeet.github.io/blog/why-smes-fail-scale-operations.html</loc>
     <lastmod>2025-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://0ranjeet.github.io/blog/how-to-hire-freelance-fullstack-developer.html</loc>
+    <loc>https://0ranjeet.github.io/blog/erp-vs-excel-business-upgrade.html</loc>
     <lastmod>2025-06-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://0ranjeet.github.io/blog/build-hotel-erp-system.html</loc>
+    <loc>https://0ranjeet.github.io/blog/ai-reduce-administrative-costs.html</loc>
     <lastmod>2025-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://0ranjeet.github.io/blog/ai-tools-for-developers-2025.html</loc>
+    <loc>https://0ranjeet.github.io/blog/process-bottlenecks-manufacturing.html</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/building-digital-first-business.html</loc>
     <lastmod>2025-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <url>
-    <loc>https://0ranjeet.github.io/blog/freelance-developer-india-guide.html</loc>
+    <loc>https://0ranjeet.github.io/blog/cost-not-having-erp-system.html</loc>
+    <lastmod>2025-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ai-agents-for-small-businesses.html</loc>
     <lastmod>2025-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/how-hotels-automate-operations.html</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/business-automation-roadmap-smes.html</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/sustainable-business-growth-technology.html</loc>
+    <lastmod>2025-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
