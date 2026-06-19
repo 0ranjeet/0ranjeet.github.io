@@ -1,0 +1,786 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "<RS/>" [ref=e4] [cursor=pointer]:
+      - /url: "#home"
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: "#home"
+      - listitem [ref=e8]:
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: "#about"
+      - listitem [ref=e10]:
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: services/
+      - listitem [ref=e12]:
+        - link "Process" [ref=e13] [cursor=pointer]:
+          - /url: "#process"
+      - listitem [ref=e14]:
+        - link "Stack" [ref=e15] [cursor=pointer]:
+          - /url: "#resume"
+      - listitem [ref=e16]:
+        - link "Projects" [ref=e17] [cursor=pointer]:
+          - /url: projects/
+      - listitem [ref=e18]:
+        - link "Blog" [ref=e19] [cursor=pointer]:
+          - /url: blog/
+      - listitem [ref=e20]:
+        - link "Contact" [ref=e21] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=e22]:
+      - generic "Switch AI / Human theme" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: Human
+      - link "Resume" [ref=e27] [cursor=pointer]:
+        - /url: Ranjeet_sahoo_resume.pdf
+        - img [ref=e28]
+        - text: Resume
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e36]: // available for freelance work
+      - heading "Hi, I'm Ranjeet Sahoo" [level=1] [ref=e37]:
+        - text: Hi, I'm
+        - text: Ranjeet Sahoo
+      - paragraph [ref=e38]: "|"
+      - paragraph [ref=e39]: A Business Systems Architect and ERP Consultant building custom ERP systems, AI automation, and digital transformation solutions that solve real operational problems â€” with solid business justification and consistent execution.
+      - generic [ref=e42]: Open to freelance · Consulting · Full-time
+      - generic [ref=e43]:
+        - link "View Services" [ref=e44] [cursor=pointer]:
+          - /url: services/
+          - img [ref=e45]
+          - text: View Services
+        - link "View Projects" [ref=e47] [cursor=pointer]:
+          - /url: projects/
+          - img [ref=e48]
+          - text: View Projects
+        - link "Read Blog →" [ref=e53] [cursor=pointer]:
+          - /url: blog/
+        - link "Let's Talk →" [ref=e54] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e55]:
+        - link "GitHub" [ref=e56] [cursor=pointer]:
+          - /url: https://github.com/0ranjeet
+          - img [ref=e57]
+        - link "LinkedIn" [ref=e59] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/007ranjeet/
+          - img [ref=e60]
+        - link "Twitter / X" [ref=e64] [cursor=pointer]:
+          - /url: https://twitter.com/ranjeetsahoo007
+          - img [ref=e65]
+        - link "Email" [ref=e67] [cursor=pointer]:
+          - /url: mailto:ranjeetsahoo007@gmail.com
+          - img [ref=e68]
+        - link "Phone" [ref=e71] [cursor=pointer]:
+          - /url: tel:+918984167404
+          - img [ref=e72]
+        - link "WhatsApp" [ref=e74] [cursor=pointer]:
+          - /url: https://wa.me/918917412728
+          - img [ref=e75]
+    - generic [ref=e78]:
+      - generic [ref=e80]:
+        - generic [ref=e85]: ranjeet_sahoo.json
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]: "1"
+            - text: "{"
+          - generic [ref=e89]:
+            - generic [ref=e90]: "2"
+            - text: "\"name\": \"Ranjeet Sahoo\","
+          - generic [ref=e91]:
+            - generic [ref=e92]: "3"
+            - text: "\"role\": \"Business Systems Architect\","
+          - generic [ref=e93]:
+            - generic [ref=e94]: "4"
+            - text: "\"focus\": \"ERP Â· AI Automation Â· Digital Transformation\","
+          - generic [ref=e95]:
+            - generic [ref=e96]: "5"
+            - text: "\"experience\": \"1200+ hrs\","
+          - generic [ref=e97]:
+            - generic [ref=e98]: "6"
+            - text: "\"stack\": ["
+          - generic [ref=e99]:
+            - generic [ref=e100]: "7"
+            - text: "\"React\", \"Node.js\","
+          - generic [ref=e101]:
+            - generic [ref=e102]: "8"
+            - text: "\"Java\", \"MySQL\","
+          - generic [ref=e103]:
+            - generic [ref=e104]: "9"
+            - text: "\"AI/LLM\""
+          - generic [ref=e105]:
+            - generic [ref=e106]: "10"
+            - text: "],"
+          - generic [ref=e107]:
+            - generic [ref=e108]: "11"
+            - text: "\"builds\": ["
+          - generic [ref=e109]:
+            - generic [ref=e110]: "12"
+            - text: "\"Hotel ERP\","
+          - generic [ref=e111]:
+            - generic [ref=e112]: "13"
+            - text: "\"Service Desk\","
+          - generic [ref=e113]:
+            - generic [ref=e114]: "14"
+            - text: "\"AI SaaS Tools\""
+          - generic [ref=e115]:
+            - generic [ref=e116]: "15"
+            - text: "],"
+          - generic [ref=e117]:
+            - generic [ref=e118]: "16"
+            - text: "\"open_to_work\": true,"
+          - generic [ref=e119]:
+            - generic [ref=e120]: "17"
+            - text: "\"email\": \"ranjeetsahoo007@gmail.com\""
+          - generic [ref=e121]:
+            - generic [ref=e122]: "18"
+            - text: "}"
+      - generic [ref=e123]:
+        - generic [ref=e124]: Status
+        - generic [ref=e125]: Available
+  - generic [ref=e128]:
+    - generic [ref=e129]:
+      - paragraph [ref=e130]: // get to know me
+      - heading "About Me" [level=2] [ref=e131]
+    - generic [ref=e132]:
+      - generic [ref=e134]:
+        - generic [ref=e139]: AboutMe.java
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e142]: "1"
+            - text: "public class AboutMe {"
+          - generic [ref=e144]: "2"
+          - generic [ref=e145]:
+            - generic [ref=e146]: "3"
+            - text: // Hello World
+          - generic [ref=e147]:
+            - generic [ref=e148]: "4"
+            - text: "public static void main(String[] args) {"
+          - generic [ref=e149]:
+            - generic [ref=e150]: "5"
+            - text: System.out.println(
+          - generic [ref=e151]:
+            - generic [ref=e152]: "6"
+            - text: "\"Fullstack developer &\""
+          - generic [ref=e153]:
+            - generic [ref=e154]: "7"
+            - text: "\"consistent learner.\""
+          - generic [ref=e155]:
+            - generic [ref=e156]: "8"
+            - text: );
+          - generic [ref=e157]:
+            - generic [ref=e158]: "9"
+            - text: "}"
+          - generic [ref=e159]:
+            - generic [ref=e160]: "10"
+            - text: "}"
+      - generic [ref=e161]:
+        - paragraph [ref=e162]: I'm a fullstack developer with a passion for building things that genuinely matter. Every commit, every solved problem, and every shipped feature brings me closer to mastery. I'm drawn to real customer problems with clear business justification.
+        - paragraph [ref=e163]: // skills
+        - generic [ref=e164]:
+          - generic [ref=e166]:
+            - generic [ref=e167]: Frontend Development
+            - generic [ref=e168]: 85%
+          - generic [ref=e171]:
+            - generic [ref=e172]: Backend Development
+            - generic [ref=e173]: 78%
+          - generic [ref=e176]:
+            - generic [ref=e177]: DSA & Problem Solving
+            - generic [ref=e178]: 72%
+          - generic [ref=e181]:
+            - generic [ref=e182]: Communication & Collaboration
+            - generic [ref=e183]: 90%
+          - generic [ref=e186]:
+            - generic [ref=e187]: AI / Prompt Engineering
+            - generic [ref=e188]: 82%
+  - generic [ref=e191]:
+    - generic [ref=e192]:
+      - paragraph [ref=e193]: // by the numbers
+      - heading "Statistics" [level=2] [ref=e194]
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]: 0+
+        - generic [ref=e198]: Hours of fullstack coding
+      - generic [ref=e199]:
+        - generic [ref=e200]: 0+
+        - generic [ref=e201]: DSA problems solved
+      - generic [ref=e202]:
+        - generic [ref=e203]: 0+
+        - generic [ref=e204]: Git commits pushed
+      - generic [ref=e205]:
+        - generic [ref=e206]: 0+
+        - generic [ref=e207]: Products shipped
+      - generic [ref=e208]:
+        - generic [ref=e209]: 0+
+        - generic [ref=e210]: Soft skill hours
+  - generic [ref=e212]:
+    - generic [ref=e213]:
+      - paragraph [ref=e214]: // tools & technologies
+      - heading "Tech Stack" [level=2] [ref=e215]
+      - paragraph [ref=e216]: Everything I use across the full product lifecycle â€” from UI to server to deployment to AI.
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]: ðŸŽ¨
+        - generic [ref=e220]: Frontend
+        - generic [ref=e221]: UI, frameworks & styling
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - img "HTML5" [ref=e225]
+          - generic [ref=e226]: HTML5
+        - generic [ref=e227]:
+          - img "CSS3" [ref=e228]
+          - generic [ref=e229]: CSS3
+        - generic [ref=e230]:
+          - img "JavaScript" [ref=e231]
+          - generic [ref=e232]: JavaScript
+        - generic [ref=e233]:
+          - img "TypeScript" [ref=e234]
+          - generic [ref=e235]: TypeScript
+        - generic [ref=e236]:
+          - img "React" [ref=e237]
+          - generic [ref=e238]: React
+        - generic [ref=e239]:
+          - img "Next.js" [ref=e240]
+          - generic [ref=e241]: Next.js
+        - generic [ref=e242]:
+          - img "Tailwind" [ref=e243]
+          - generic [ref=e244]: Tailwind
+        - generic [ref=e245]:
+          - img "Bootstrap" [ref=e246]
+          - generic [ref=e247]: Bootstrap
+        - generic [ref=e248]:
+          - img "Redux" [ref=e249]
+          - generic [ref=e250]: Redux
+        - generic [ref=e251]:
+          - img "Sass" [ref=e252]
+          - generic [ref=e253]: Sass
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]: "âš™ï¸\x8f"
+        - generic [ref=e257]: Backend
+        - generic [ref=e258]: Servers, APIs & runtime
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - img "Node.js" [ref=e262]
+          - generic [ref=e263]: Node.js
+        - generic [ref=e264]:
+          - img "Express.js" [ref=e265]
+          - generic [ref=e266]: Express.js
+        - generic [ref=e267]:
+          - img "Java" [ref=e268]
+          - generic [ref=e269]: Java
+        - generic [ref=e270]:
+          - img "Spring Boot" [ref=e271]
+          - generic [ref=e272]: Spring Boot
+        - generic [ref=e273]:
+          - img "Python" [ref=e274]
+          - generic [ref=e275]: Python
+        - generic [ref=e276]:
+          - img "GraphQL" [ref=e277]
+          - generic [ref=e278]: GraphQL
+    - generic [ref=e279]:
+      - generic [ref=e280]:
+        - generic [ref=e281]: "ðŸ—„ï¸\x8f"
+        - generic [ref=e282]: Databases
+        - generic [ref=e283]: Storage & caching
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - img "MySQL" [ref=e287]
+          - generic [ref=e288]: MySQL
+        - generic [ref=e289]:
+          - img "MongoDB" [ref=e290]
+          - generic [ref=e291]: MongoDB
+        - generic [ref=e292]:
+          - img "PostgreSQL" [ref=e293]
+          - generic [ref=e294]: PostgreSQL
+        - generic [ref=e295]:
+          - img "Redis" [ref=e296]
+          - generic [ref=e297]: Redis
+        - generic [ref=e298]:
+          - img "Firebase" [ref=e299]
+          - generic [ref=e300]: Firebase
+    - generic [ref=e301]:
+      - generic [ref=e302]:
+        - generic [ref=e303]: ðŸ¤–
+        - generic [ref=e304]: AI & LLM Tools
+        - generic [ref=e305]: Models, assistants & generative AI
+      - generic [ref=e307]:
+        - generic [ref=e308]:
+          - img "ChatGPT / OpenAI" [ref=e309]
+          - generic [ref=e310]: ChatGPT
+        - generic [ref=e311]:
+          - img "Claude" [ref=e312]
+          - generic [ref=e313]: Claude
+        - generic [ref=e314]:
+          - img "Gemini" [ref=e315]
+          - generic [ref=e316]: Gemini
+        - generic [ref=e317]:
+          - img "Copilot" [ref=e318]
+          - generic [ref=e319]: Copilot
+        - generic [ref=e320]:
+          - img "Perplexity" [ref=e321]
+          - generic [ref=e322]: Perplexity
+        - generic [ref=e323]:
+          - img "HuggingFace" [ref=e324]
+          - generic [ref=e325]: HuggingFace
+        - generic [ref=e326]:
+          - img "Midjourney" [ref=e327]
+          - generic [ref=e328]: Midjourney
+        - generic [ref=e329]:
+          - img "Cursor AI" [ref=e330]
+          - generic [ref=e331]: Cursor AI
+    - generic [ref=e332]:
+      - generic [ref=e333]:
+        - generic [ref=e334]: "âœ\x8fï¸\x8f"
+        - generic [ref=e335]: Design
+        - generic [ref=e336]: UI/UX, prototyping & graphics
+      - generic [ref=e338]:
+        - generic [ref=e339]:
+          - img "Figma" [ref=e340]
+          - generic [ref=e341]: Figma
+        - generic [ref=e342]:
+          - img "Photoshop" [ref=e343]
+          - generic [ref=e344]: Photoshop
+        - generic [ref=e345]:
+          - img "Illustrator" [ref=e346]
+          - generic [ref=e347]: Illustrator
+        - generic [ref=e348]:
+          - img "Canva" [ref=e349]
+          - generic [ref=e350]: Canva
+        - generic [ref=e351]:
+          - img "Framer" [ref=e352]
+          - generic [ref=e353]: Framer
+    - generic [ref=e354]:
+      - generic [ref=e355]:
+        - generic [ref=e356]: "ðŸ› ï¸\x8f"
+        - generic [ref=e357]: DevOps & Tools
+        - generic [ref=e358]: Version control, deployment & infra
+      - generic [ref=e360]:
+        - generic [ref=e361]:
+          - img "Git" [ref=e362]
+          - generic [ref=e363]: Git
+        - generic [ref=e364]:
+          - img "GitHub" [ref=e365]
+          - generic [ref=e366]: GitHub
+        - generic [ref=e367]:
+          - img "Docker" [ref=e368]
+          - generic [ref=e369]: Docker
+        - generic [ref=e370]:
+          - img "VS Code" [ref=e371]
+          - generic [ref=e372]: VS Code
+        - generic [ref=e373]:
+          - img "Postman" [ref=e374]
+          - generic [ref=e375]: Postman
+        - generic [ref=e376]:
+          - img "Linux" [ref=e377]
+          - generic [ref=e378]: Linux
+        - generic [ref=e379]:
+          - img [ref=e380]
+          - generic [ref=e383]: Vercel
+        - generic [ref=e384]:
+          - img [ref=e385]
+          - generic [ref=e388]: AWS
+    - generic [ref=e389]:
+      - generic [ref=e390]:
+        - paragraph [ref=e391]: // want the full picture?
+        - paragraph [ref=e392]: Download my resume for a complete overview of experience & projects.
+      - link "Download Resume PDF" [ref=e393] [cursor=pointer]:
+        - /url: Ranjeet_sahoo_resume.pdf
+        - img [ref=e394]
+        - text: Download Resume PDF
+  - generic [ref=e396]:
+    - generic [ref=e397]:
+      - generic [ref=e398]:
+        - paragraph [ref=e399]: // what i offer
+        - heading "Services" [level=2] [ref=e400]
+        - paragraph [ref=e401]: Whether you want to build a product, rank on Google, run ads, grow your brand, or streamline operations â€” I cover the full picture.
+      - generic [ref=e402]:
+        - generic [ref=e403]:
+          - img [ref=e405]
+          - paragraph [ref=e408]: Fullstack Web Development
+          - paragraph [ref=e409]: End-to-end web applications built from scratch â€” fast, scalable, and production-ready. Covers everything from the user interface to the server, database, and deployment.
+          - generic [ref=e410]:
+            - generic [ref=e411]: Web App
+            - generic [ref=e412]: React
+            - generic [ref=e413]: Node.js
+            - generic [ref=e414]: REST API
+        - generic [ref=e415]:
+          - img [ref=e417]
+          - paragraph [ref=e420]: Business Website & Landing Pages
+          - paragraph [ref=e421]: Professional websites that convert visitors into customers. Clean design, mobile-first, fast loading, and built to rank on Google. Perfect for local businesses, service providers, and startups.
+          - generic [ref=e422]:
+            - generic [ref=e423]: Business Site
+            - generic [ref=e424]: Landing Page
+            - generic [ref=e425]: Mobile-First
+            - generic [ref=e426]: Fast Load
+        - generic [ref=e427]:
+          - img [ref=e429]
+          - paragraph [ref=e433]: SEO & Search Visibility
+          - paragraph [ref=e434]: Get found on Google by people already looking for what you offer. On-page SEO, technical fixes, content structure, local SEO, and keyword strategy â€” so the right people find you first.
+          - generic [ref=e435]:
+            - generic [ref=e436]: On-page SEO
+            - generic [ref=e437]: Local SEO
+            - generic [ref=e438]: Keywords
+            - generic [ref=e439]: Rankings
+        - generic [ref=e440]:
+          - img [ref=e442]
+          - paragraph [ref=e444]: Branding & Digital Identity
+          - paragraph [ref=e445]: Logo, colour palette, typography, and brand guidelines â€” giving your business a consistent, professional identity across your website, social media, and every customer touchpoint.
+          - generic [ref=e446]:
+            - generic [ref=e447]: Logo Design
+            - generic [ref=e448]: Brand Guide
+            - generic [ref=e449]: Identity
+            - generic [ref=e450]: Visual System
+        - generic [ref=e451]:
+          - img [ref=e453]
+          - paragraph [ref=e455]: Digital Advertising
+          - paragraph [ref=e456]: Paid campaigns on Google, Facebook, and Instagram that bring real leads â€” not just impressions. Ad copy, audience targeting, budget planning, and conversion tracking handled end to end.
+          - generic [ref=e457]:
+            - generic [ref=e458]: Google Ads
+            - generic [ref=e459]: Meta Ads
+            - generic [ref=e460]: Targeting
+            - generic [ref=e461]: Lead Gen
+        - generic [ref=e462]:
+          - img [ref=e464]
+          - paragraph [ref=e467]: AI & Automation
+          - paragraph [ref=e468]: Add AI to your existing business â€” smart chatbots, automated replies, content generation, intelligent dashboards. Save hours of manual work every week without hiring more people.
+          - generic [ref=e469]:
+            - generic [ref=e470]: AI Chatbot
+            - generic [ref=e471]: Automation
+            - generic [ref=e472]: OpenAI
+            - generic [ref=e473]: Workflows
+        - generic [ref=e474]:
+          - img [ref=e476]
+          - paragraph [ref=e481]: Business Operations Software
+          - paragraph [ref=e482]: Custom internal tools, ERP systems, booking platforms, inventory management, and dashboards â€” built to match exactly how your business works, not a generic off-the-shelf product.
+          - generic [ref=e483]:
+            - generic [ref=e484]: ERP
+            - generic [ref=e485]: Booking
+            - generic [ref=e486]: Inventory
+            - generic [ref=e487]: Dashboard
+        - generic [ref=e488]:
+          - img [ref=e490]
+          - paragraph [ref=e493]: UI/UX Design
+          - paragraph [ref=e494]: Wireframes and high-fidelity mockups approved before a single line of code is written. Clean, intuitive interfaces that reduce confusion, increase conversions, and work on every device.
+          - generic [ref=e495]:
+            - generic [ref=e496]: Figma
+            - generic [ref=e497]: Wireframes
+            - generic [ref=e498]: Prototypes
+            - generic [ref=e499]: Responsive
+        - generic [ref=e500]:
+          - img [ref=e502]
+          - paragraph [ref=e505]: Service Desk & ITSM
+          - paragraph [ref=e506]: A proper ticketing and support system for your team â€” so nothing falls through the cracks. SLA tracking, priority queues, customer portal, and full response-time analytics.
+          - generic [ref=e507]:
+            - generic [ref=e508]: Help Desk
+            - generic [ref=e509]: Ticketing
+            - generic [ref=e510]: SLA
+            - generic [ref=e511]: Analytics
+        - generic [ref=e512]:
+          - img [ref=e514]
+          - paragraph [ref=e517]: Tech Consulting & Strategy
+          - paragraph [ref=e518]: Not sure what you need? I help businesses figure out the right technology decisions â€” what to build, what to buy, how to prioritize, and what to avoid. Clear thinking, no upselling.
+          - generic [ref=e519]:
+            - generic [ref=e520]: Strategy
+            - generic [ref=e521]: Architecture
+            - generic [ref=e522]: MVP
+            - generic [ref=e523]: Audit
+    - generic [ref=e525]:
+      - generic [ref=e526]:
+        - paragraph [ref=e527]: // full service catalog
+        - paragraph [ref=e528]: Open the dedicated services page to review every service with outputs and technology tags.
+      - link "View all services" [ref=e529] [cursor=pointer]:
+        - /url: services/
+  - generic [ref=e531]:
+    - generic [ref=e532]:
+      - paragraph [ref=e533]: // how i work
+      - heading "My Process" [level=2] [ref=e534]
+      - paragraph [ref=e535]: Every project follows a clear, repeatable workflow. No guesswork, no scope creep.
+    - generic [ref=e536]:
+      - generic [ref=e537]:
+        - generic [ref=e538]: "01"
+        - img [ref=e540]
+        - paragraph [ref=e542]: Discovery Call
+        - paragraph [ref=e543]: 30-min free call. Understand goals, pain points, budget & timeline.
+      - generic [ref=e544]:
+        - generic [ref=e545]: "02"
+        - img [ref=e547]
+        - paragraph [ref=e550]: Scope & Proposal
+        - paragraph [ref=e551]: Every feature, milestone & deliverable in a clear written proposal.
+      - generic [ref=e552]:
+        - generic [ref=e553]: "03"
+        - img [ref=e555]
+        - paragraph [ref=e558]: UI/UX Design
+        - paragraph [ref=e559]: Figma wireframes approved before a single line of code is written.
+      - generic [ref=e560]:
+        - generic [ref=e561]: "04"
+        - img [ref=e563]
+        - paragraph [ref=e566]: Development
+        - paragraph [ref=e567]: Sprint-based builds with weekly updates. Clean, documented code.
+      - generic [ref=e568]:
+        - generic [ref=e569]: "05"
+        - img [ref=e571]
+        - paragraph [ref=e573]: Testing & QA
+        - paragraph [ref=e574]: Every feature tested cross-device. UAT session included.
+      - generic [ref=e575]:
+        - generic [ref=e576]: "06"
+        - img [ref=e578]
+        - paragraph [ref=e580]: Deploy & Support
+        - paragraph [ref=e581]: Deployment on Vercel/AWS. 30-day post-launch support included.
+  - generic [ref=e582]:
+    - generic [ref=e583]:
+      - generic [ref=e584]:
+        - paragraph [ref=e585]: // things i've built
+        - heading "Projects" [level=2] [ref=e586]
+      - generic [ref=e587]:
+        - generic [ref=e588]:
+          - generic [ref=e589]:
+            - img [ref=e591]
+            - generic [ref=e594]:
+              - generic [ref=e595]: AI SaaS
+              - generic [ref=e596]:
+                - link "GitHub" [ref=e597] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e598]
+                - link "Live Demo" [ref=e600] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e601]
+          - paragraph [ref=e605]: AI Productivity Tool
+          - paragraph [ref=e606]: A smart AI-powered productivity assistant that automates repetitive tasks, generates content, and provides intelligent suggestions. Built with LLM backend, real-time API integration, and a clean React dashboard.
+          - generic [ref=e607]:
+            - generic [ref=e608]: React
+            - generic [ref=e609]: Node.js
+            - generic [ref=e610]: OpenAI API
+            - generic [ref=e611]: REST API
+        - generic [ref=e612]:
+          - generic [ref=e613]:
+            - img [ref=e615]
+            - generic [ref=e620]:
+              - generic [ref=e621]: ERP Enterprise
+              - generic [ref=e622]:
+                - link "GitHub" [ref=e623] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e624]
+                - link "Live Demo" [ref=e626] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e627]
+          - paragraph [ref=e631]: Hotel ERP System
+          - paragraph [ref=e632]: Full-scale Hotel ERP covering front desk, room & housekeeping, restaurant billing, inventory, staff scheduling, and financial reporting with multi-branch support and RBAC.
+          - generic [ref=e633]:
+            - generic [ref=e634]: React
+            - generic [ref=e635]: Node.js
+            - generic [ref=e636]: MySQL
+            - generic [ref=e637]: RBAC
+            - generic [ref=e638]: Dashboard
+        - generic [ref=e639]:
+          - generic [ref=e640]:
+            - img [ref=e642]
+            - generic [ref=e645]:
+              - generic [ref=e646]: SaaS ITSM
+              - generic [ref=e647]:
+                - link "GitHub" [ref=e648] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e649]
+                - link "Live Demo" [ref=e651] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e652]
+          - paragraph [ref=e656]: Service Desk Platform
+          - paragraph [ref=e657]: ITSM-grade service desk with ticket lifecycle, SLA tracking, priority queues, auto-assignment, real-time notifications, knowledge base & analytics.
+          - generic [ref=e658]:
+            - generic [ref=e659]: React
+            - generic [ref=e660]: Node.js
+            - generic [ref=e661]: WebSocket
+            - generic [ref=e662]: SLA
+            - generic [ref=e663]: Analytics
+        - generic [ref=e664]:
+          - generic [ref=e665]:
+            - img [ref=e667]
+            - generic [ref=e669]:
+              - generic [ref=e670]: ERP Enterprise
+              - generic [ref=e671]:
+                - link "GitHub" [ref=e672] [cursor=pointer]:
+                  - /url: https://github.com/0ranjeet
+                  - img [ref=e673]
+                - link "Live Demo" [ref=e675] [cursor=pointer]:
+                  - /url: "#"
+                  - img [ref=e676]
+          - paragraph [ref=e680]: Manufacturing ERP System
+          - paragraph [ref=e681]: End-to-end manufacturing ERP with production planning, BOM management, shop floor tracking, quality control, and complete financial integration for discrete manufacturers.
+          - generic [ref=e682]:
+            - generic [ref=e683]: Java
+            - generic [ref=e684]: Spring Boot
+            - generic [ref=e685]: MySQL
+            - generic [ref=e686]: RBAC
+            - generic [ref=e687]: Reports
+    - generic [ref=e689]:
+      - generic [ref=e690]:
+        - paragraph [ref=e691]: // full project portfolio
+        - paragraph [ref=e692]: Open the dedicated projects page for a cleaner portfolio layout with project metadata.
+      - link "View all projects" [ref=e693] [cursor=pointer]:
+        - /url: projects/
+  - generic [ref=e694]:
+    - generic [ref=e695]:
+      - generic [ref=e696]:
+        - paragraph [ref=e697]: // insights & guides
+        - heading "Blog" [level=2] [ref=e698]
+        - paragraph [ref=e699]: Practical guides for business owners, founders, and teams looking to grow through technology â€” no jargon, no code, just clear thinking.
+      - generic [ref=e700]:
+        - link "Why Most SMEs Fail to Scale Their Operations" [ref=e701] [cursor=pointer]:
+          - /url: blog/why-most-smes-fail-to-scale.html
+          - img [ref=e703]
+          - generic [ref=e706]:
+            - generic [ref=e707]:
+              - generic [ref=e708]: SME Growth
+              - generic [ref=e709]: Decision Guide
+            - paragraph [ref=e710]: Why Most SMEs Fail to Scale Their Operations
+            - paragraph [ref=e711]: Scaling fails when processes are fragmented, approvals are manual, data lives in multiple places, and the owner becomes the bottleneck. This brief explains what to fix before adding more people or tools.
+            - generic [ref=e712]:
+              - generic [ref=e713]: Read decision brief →
+              - generic [ref=e714]: 6 min read
+        - 'link "ERP vs Excel: When Should a Business Upgrade?" [ref=e715] [cursor=pointer]':
+          - /url: blog/erp-vs-excel-when-upgrade.html
+          - img [ref=e717]
+          - generic [ref=e721]:
+            - generic [ref=e722]:
+              - generic [ref=e723]: ERP Decision
+              - generic [ref=e724]: Upgrade Signal
+            - paragraph [ref=e725]: "ERP vs Excel: When Should a Business Upgrade?"
+            - paragraph [ref=e726]: Excel works until version chaos, manual reconciliation, duplicate entries, and reporting delays start costing money. Use this guide to decide when a custom ERP becomes cheaper than spreadsheet risk.
+            - generic [ref=e727]:
+              - generic [ref=e728]: Read decision brief →
+              - generic [ref=e729]: 7 min read
+        - link "How AI Can Reduce Administrative Costs" [ref=e730] [cursor=pointer]:
+          - /url: blog/how-ai-can-reduce-administrative-costs.html
+          - img [ref=e732]
+          - generic [ref=e735]:
+            - generic [ref=e736]:
+              - generic [ref=e737]: AI Automation
+              - generic [ref=e738]: Cost Control
+            - paragraph [ref=e739]: How AI Can Reduce Administrative Costs
+            - paragraph [ref=e740]: "AI is most valuable when it removes repetitive admin work: lead replies, ticket routing, invoice reminders, meeting notes, report drafting, and internal knowledge search. This topic shows where ROI starts first."
+            - generic [ref=e741]:
+              - generic [ref=e742]: Read decision brief →
+              - generic [ref=e743]: 5 min read
+    - generic [ref=e745]:
+      - generic [ref=e746]:
+        - paragraph [ref=e747]: // latest articles
+        - paragraph [ref=e748]: Open the dedicated blog page and continue with suggested reads after every article.
+      - link "View all blog posts" [ref=e749] [cursor=pointer]:
+        - /url: blog/
+  - generic [ref=e751]:
+    - generic [ref=e752]:
+      - paragraph [ref=e753]: // site map
+      - heading "Everything Is One Click Away" [level=2] [ref=e754]
+      - paragraph [ref=e755]: Core pages, decision pages, and supporting resources are linked here for both users and search engines.
+    - generic [ref=e756]:
+      - link "Services ERP, AI automation, web development, consulting." [ref=e757] [cursor=pointer]:
+        - /url: services/
+        - paragraph [ref=e758]: Services
+        - paragraph [ref=e759]: ERP, AI automation, web development, consulting.
+      - link "Projects Selected systems and product work." [ref=e760] [cursor=pointer]:
+        - /url: projects/
+        - paragraph [ref=e761]: Projects
+        - paragraph [ref=e762]: Selected systems and product work.
+      - link "Blog Practical guides and decision briefs." [ref=e763] [cursor=pointer]:
+        - /url: blog/
+        - paragraph [ref=e764]: Blog
+        - paragraph [ref=e765]: Practical guides and decision briefs.
+      - link "Process How projects move from discovery to deploy." [ref=e766] [cursor=pointer]:
+        - /url: process/
+        - paragraph [ref=e767]: Process
+        - paragraph [ref=e768]: How projects move from discovery to deploy.
+      - link "Pricing Transparent engagement and package options." [ref=e769] [cursor=pointer]:
+        - /url: pricing/
+        - paragraph [ref=e770]: Pricing
+        - paragraph [ref=e771]: Transparent engagement and package options.
+      - link "Compare Custom vs off-the-shelf decision support." [ref=e772] [cursor=pointer]:
+        - /url: compare/
+        - paragraph [ref=e773]: Compare
+        - paragraph [ref=e774]: Custom vs off-the-shelf decision support.
+      - link "FAQs Common questions answered clearly." [ref=e775] [cursor=pointer]:
+        - /url: faqs/
+        - paragraph [ref=e776]: FAQs
+        - paragraph [ref=e777]: Common questions answered clearly.
+      - link "Industries Solutions tailored by sector." [ref=e778] [cursor=pointer]:
+        - /url: industries/
+        - paragraph [ref=e779]: Industries
+        - paragraph [ref=e780]: Solutions tailored by sector.
+      - link "Resources Useful tools, templates, and guides." [ref=e781] [cursor=pointer]:
+        - /url: resources/
+        - paragraph [ref=e782]: Resources
+        - paragraph [ref=e783]: Useful tools, templates, and guides.
+      - link "Case Studies Deeper project and outcomes stories." [ref=e784] [cursor=pointer]:
+        - /url: case-studies/
+        - paragraph [ref=e785]: Case Studies
+        - paragraph [ref=e786]: Deeper project and outcomes stories.
+      - link "Trust Credentials, proof, and trust signals." [ref=e787] [cursor=pointer]:
+        - /url: trust/
+        - paragraph [ref=e788]: Trust
+        - paragraph [ref=e789]: Credentials, proof, and trust signals.
+  - generic [ref=e791]:
+    - generic [ref=e792]:
+      - paragraph [ref=e793]: // let's connect
+      - heading "Contact Me" [level=2] [ref=e794]
+    - generic [ref=e795]:
+      - generic [ref=e796]:
+        - paragraph [ref=e797]: Available for freelance projects, consulting, and full-time roles. Have a product idea, a team that needs a dev, or just want to talk tech?
+        - generic [ref=e798]:
+          - img [ref=e800]
+          - generic [ref=e802]:
+            - generic [ref=e803]: GitHub
+            - link "github.com/0ranjeet" [ref=e805] [cursor=pointer]:
+              - /url: https://github.com/0ranjeet
+        - generic [ref=e806]:
+          - img [ref=e808]
+          - generic [ref=e812]:
+            - generic [ref=e813]: LinkedIn
+            - link "linkedin.com/in/007ranjeet" [ref=e815] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/007ranjeet/
+        - generic [ref=e816]:
+          - img [ref=e818]
+          - generic [ref=e821]:
+            - generic [ref=e822]: Email
+            - link "ranjeetsahoo007@gmail.com" [ref=e824] [cursor=pointer]:
+              - /url: mailto:ranjeetsahoo007@gmail.com
+        - generic [ref=e825]:
+          - img [ref=e827]
+          - generic [ref=e829]:
+            - generic [ref=e830]: Phone
+            - link "+91 8984167404" [ref=e832] [cursor=pointer]:
+              - /url: tel:+918984167404
+        - generic [ref=e833]:
+          - img [ref=e835]
+          - generic [ref=e838]:
+            - generic [ref=e839]: WhatsApp
+            - link "+91 8917412728" [ref=e841] [cursor=pointer]:
+              - /url: https://wa.me/918917412728
+        - generic [ref=e842]:
+          - img [ref=e844]
+          - generic [ref=e847]:
+            - generic [ref=e848]: Location
+            - generic [ref=e849]: Available Worldwide
+      - generic [ref=e851]:
+        - textbox "Your Name" [ref=e852]
+        - textbox "Your Email" [ref=e853]
+        - textbox "Subject" [ref=e854]
+        - textbox "Your message..." [ref=e855]
+        - button "Send Message" [ref=e856] [cursor=pointer]:
+          - img [ref=e857]
+          - text: Send Message
+  - contentinfo [ref=e860]:
+    - generic [ref=e861]:
+      - link "GitHub" [ref=e862] [cursor=pointer]:
+        - /url: https://github.com/0ranjeet
+        - img [ref=e863]
+      - link "LinkedIn" [ref=e865] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/007ranjeet/
+        - img [ref=e866]
+      - link "Twitter" [ref=e870] [cursor=pointer]:
+        - /url: https://twitter.com/ranjeetsahoo007
+        - img [ref=e871]
+      - link "Email" [ref=e873] [cursor=pointer]:
+        - /url: mailto:ranjeetsahoo007@gmail.com
+        - img [ref=e874]
+      - link "WhatsApp" [ref=e877] [cursor=pointer]:
+        - /url: https://wa.me/918917412728
+        - img [ref=e878]
+    - paragraph [ref=e881]: Crafted with passion & precision by Ranjeet Sahoo — © 2025
+    - paragraph [ref=e882]: Available worldwide · Remote engagements welcome

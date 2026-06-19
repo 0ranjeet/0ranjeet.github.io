@@ -1,0 +1,17 @@
+[   68135ms] [WARNING] Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation @ https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js:0
+[   68257ms] [WARNING] GSAP target .github-streak,.github-graph-card not found. https://gsap.com @ https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js:9
+[   68258ms] [WARNING] GSAP target  not found. https://gsap.com @ https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js:9
+[   68259ms] [WARNING] Element not found: #github @ https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js:9
+[   68267ms] TypeError: Cannot set properties of null (setting 'textContent')
+    at loadIDEFile (http://127.0.0.1:8000/index.html:1925:53)
+    at initIDE (http://127.0.0.1:8000/index.html:1954:3)
+    at HTMLDocument.<anonymous> (http://127.0.0.1:8000/index.html:1967:27)
+[   91850ms] [WARNING] Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation @ https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js:0
+[   91944ms] TypeError: Cannot set properties of null (setting 'textContent')
+    at loadIDEFile (http://127.0.0.1:8000/index.html:1925:53)
+    at initIDE (http://127.0.0.1:8000/index.html:1954:3)
+    at HTMLDocument.<anonymous> (http://127.0.0.1:8000/index.html:1967:27)
+[  125039ms] [WARNING] Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation @ https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js:0
+[  142348ms] [WARNING] Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation @ https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js:0
+[  377612ms] [WARNING] Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation @ https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js:0
+[  762255ms] [WARNING] Scripts "build/three.js" and "build/three.min.js" are deprecated with r150+, and will be removed with r160. Please use ES Modules or alternatives: https://threejs.org/docs/index.html#manual/en/introduction/Installation @ https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js:0

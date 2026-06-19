@@ -4,91 +4,392 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- Main portfolio -->
   <url>
     <loc>https://0ranjeet.github.io/</loc>
-    <lastmod>2025-06-14</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- About / Profile page (Knowledge Panel target) -->
   <url>
-    <loc>https://0ranjeet.github.io/about.html</loc>
-    <lastmod>2025-06-14</lastmod>
+    <loc>https://0ranjeet.github.io/services/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Blog posts -->
   <url>
-    <loc>https://0ranjeet.github.io/blog/why-smes-fail-scale-operations.html</loc>
-    <lastmod>2025-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://0ranjeet.github.io/blog/erp-vs-excel-business-upgrade.html</loc>
-    <lastmod>2025-06-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://0ranjeet.github.io/blog/ai-reduce-administrative-costs.html</loc>
-    <lastmod>2025-05-20</lastmod>
+    <loc>https://0ranjeet.github.io/process/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://0ranjeet.github.io/blog/process-bottlenecks-manufacturing.html</loc>
-    <lastmod>2025-05-20</lastmod>
+    <loc>https://0ranjeet.github.io/projects/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/pricing/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/compare/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/faqs/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/industries/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/resources/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/case-studies/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/trust/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/why-most-smes-fail-to-scale.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/erp-vs-excel-when-upgrade.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/how-ai-can-reduce-administrative-costs.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/services/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/services/erp-development.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/services/ai-automation.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://0ranjeet.github.io/blog/services/digital-transformation.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- New Priority Pages -->
+  <url>
+    <loc>https://0ranjeet.github.io/about/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/contact/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/solutions/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/audit/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/results/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/tools/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/templates/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/glossary/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/ai-lab/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/locations/</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://0ranjeet.github.io/blog/building-digital-first-business.html</loc>
-    <lastmod>2025-04-10</lastmod>
+    <loc>https://0ranjeet.github.io/locations/bhubaneswar.html</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
   <url>
-    <loc>https://0ranjeet.github.io/blog/cost-not-having-erp-system.html</loc>
-    <lastmod>2025-04-10</lastmod>
+    <loc>https://0ranjeet.github.io/locations/cuttack.html</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
   <url>
-    <loc>https://0ranjeet.github.io/blog/ai-agents-for-small-businesses.html</loc>
-    <lastmod>2025-03-05</lastmod>
+    <loc>https://0ranjeet.github.io/locations/puri.html</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
-
   <url>
-    <loc>https://0ranjeet.github.io/blog/how-hotels-automate-operations.html</loc>
-    <lastmod>2025-03-05</lastmod>
+    <loc>https://0ranjeet.github.io/locations/berhampur.html</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
-
   <url>
-    <loc>https://0ranjeet.github.io/blog/business-automation-roadmap-smes.html</loc>
-    <lastmod>2025-02-15</lastmod>
+    <loc>https://0ranjeet.github.io/locations/rourkela.html</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
-
   <url>
-    <loc>https://0ranjeet.github.io/blog/sustainable-business-growth-technology.html</loc>
-    <lastmod>2025-02-15</lastmod>
+    <loc>https://0ranjeet.github.io/blog/erp-implementation-checklist.html</loc>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/manufacturing-erp-production.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ai-chatbot-support-roi.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/digital-transformation-traditional-business.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/process-mapping-automation.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Additional Blog Articles -->
+  <url>
+    <loc>https://0ranjeet.github.io/blog/erp-implementation-checklist.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/manufacturing-erp-production.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ai-chatbot-support-roi.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/custom-erp-vs-off-the-shelf.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/erp-implementation-mistakes.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ai-process-automation-guide.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/small-business-erp.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ai-lead-qualification.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/cloud-erp-vs-on-premise.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/erp-change-management.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ai-workflow-automation-examples.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/digital-transformation-kpis.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/business-systems-audit-checklist.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/erp-training-non-tech.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/measuring-erp-success.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/logistics-erp-fleet-warehouse.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/construction-project-erp.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/real-estate-crm.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ngo-management-system.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/professional-services-time-tracking.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/healthcare-clinic-software.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://0ranjeet.github.io/blog/ecommerce-erp-integration.html</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

@@ -1,0 +1,189 @@
+/* ==========================================================================
+   HUMAN THEME � Warm Organic Ghibli-Inspired Creative Design
+   ========================================================================== */
+
+[data-theme="human"] {
+   --bg: transparent;
+   --bg2: rgba(248, 250, 242, 0.45);
+   --bg3: rgba(240, 245, 235, 0.6);
+   --card: rgba(252, 253, 248, 0.75);
+   --border: rgba(139, 100, 40, 0.12);
+   --accent: #3a6a4a;
+   --accent2: #c43a45;
+   --accent3: #d48a1a;
+   --accentRgb: 58, 106, 74;
+   --accent2Rgb: 196, 58, 69;
+   --text: #2c1a0a;
+   --muted: #5a4a3a;
+   --white: #2c1a0a;
+   --nav-bg: rgba(248, 250, 242, 0.82);
+   --shadow: rgba(58, 106, 74, 0.1);
+   --glow: 0 0 25px rgba(58, 106, 74, 0.2), 0 0 60px rgba(58, 106, 74, 0.05);
+   --glass: rgba(252, 253, 248, 0.72);
+   --glass-border: rgba(139, 100, 40, 0.2);
+   --gradient: linear-gradient(135deg, #3a6a4a, #c43a45, #d48a1a);
+}
+
+/* Animated sky background */
+@keyframes ghibliSky {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+[data-theme="human"] body {
+   background: #f8faf2 !important;
+   background: linear-gradient(-45deg, #eef5e8, #f0f5eb, #e8f0e8, #f5f8f0) !important;
+   background-size: 400% 400% !important;
+   animation: ghibliSky 25s ease infinite !important;
+   position: relative;
+ }
+
+/* Floating organic blobs */
+.human-blobs {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+[data-theme="human"] .human-blobs {
+  display: block
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(140px);
+  opacity: 0.65;
+  animation: floatBlob 25s infinite alternate ease-in-out;
+}
+
+.blob-1 {
+   width: 600px;
+   height: 600px;
+   background: radial-gradient(circle, rgba(238, 245, 232, 0.8) 0%, rgba(238, 245, 232, 0.1) 70%);
+   top: -15%;
+   left: -15%;
+   animation-duration: 35s
+ }
+ 
+ .blob-2 {
+   width: 700px;
+   height: 700px;
+   background: radial-gradient(circle, rgba(224, 235, 235, 0.8) 0%, rgba(224, 235, 235, 0.1) 70%);
+   bottom: -15%;
+   right: -15%;
+   animation-duration: 40s
+ }
+ 
+ .blob-3 {
+   width: 500px;
+   height: 500px;
+   background: radial-gradient(circle, rgba(235, 225, 210, 0.8) 0%, rgba(235, 225, 210, 0.1) 70%);
+   top: 35%;
+   left: 25%;
+   animation-duration: 28s
+ }
+
+@keyframes floatBlob {
+  0% {
+    transform: translate(0, 0) scale(1) rotate(0deg)
+  }
+
+  50% {
+    transform: translate(120px, -80px) scale(1.15) rotate(180deg)
+  }
+
+  100% {
+    transform: translate(-60px, 100px) scale(0.9) rotate(360deg)
+  }
+}
+
+/* Typography overrides for human theme */
+[data-theme="human"] .hero-name,
+ [data-theme="human"] .sec-title {
+   font-family: 'Syne', sans-serif;
+   text-shadow: 0 2px 20px rgba(58, 106, 74, 0.15);
+ }
+
+[data-theme="human"] .stack-group-title {
+  font-family: 'Syne', sans-serif;
+}
+
+/* Glass cards get warmer border */
+[data-theme="human"] .glass {
+  border-color: rgba(139, 100, 40, 0.2)
+ }
+
+[data-theme="human"] .tech-card img[alt="ChatGPT"] {
+  filter: invert(49%) sepia(68%) saturate(383%) hue-rotate(113deg) brightness(93%) contrast(91%)
+}
+
+[data-theme="human"] .tech-card img[alt="Claude"] {
+  filter: invert(57%) sepia(39%) saturate(1436%) hue-rotate(337deg) brightness(96%) contrast(92%)
+}
+
+[data-theme="human"] .tech-card img[alt="Gemini"] {
+  filter: invert(43%) sepia(91%) saturate(1570%) hue-rotate(186deg) brightness(92%) contrast(93%)
+}
+
+[data-theme="human"] .tech-card img[alt="Hugging Face"] {
+  filter: invert(27%) sepia(21%) saturate(3132%) hue-rotate(303deg) brightness(93%) contrast(94%)
+}
+
+[data-theme="human"] .tech-card img[alt="Canva"] {
+  filter: invert(77%) sepia(31%) saturate(723%) hue-rotate(148deg) brightness(93%) contrast(90%)
+}
+
+/* Subtle warm gradient overlays for sections */
+[data-theme="human"] #about {
+  background: rgba(250, 236, 214, 0.35)
+}
+
+[data-theme="human"] #blog {
+  background: rgba(250, 236, 214, 0.25)
+}
+
+[data-theme="human"] #services {
+  background: rgba(250, 236, 214, 0.25)
+}
+
+/* Section title underline in gradient */
+[data-theme="human"] .sec-title::after {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--gradient);
+}
+
+/* Stat cards in human theme � warmer glow */
+[data-theme="human"] .stat-card:hover {
+  box-shadow: 0 0 30px rgba(58, 106, 74, 0.25), 0 20px 50px rgba(0, 0, 0, 0.1);
+ }
+ 
+ [data-theme="human"] body {
+   background-image: radial-gradient(ellipse at 20% 50%, rgba(58, 106, 74, 0.04) 0%, transparent 60%),
+     radial-gradient(ellipse at 80% 20%, rgba(196, 58, 69, 0.04) 0%, transparent 60%) !important;
+ }
+ 
+ [data-theme="human"] .svc-card:hover,
+ [data-theme="human"] .proj-card:hover,
+ [data-theme="human"] .blog-card:hover,
+ [data-theme="human"] .card:hover {
+   box-shadow: 0 0 40px rgba(58, 106, 74, 0.18), 0 20px 50px rgba(0, 0, 0, 0.08);
+ }
+ 
+ [data-theme="human"] .ht-glow-ring {
+   background: linear-gradient(135deg, #3a6a4a, #c43a45, #d48a1a);
+   opacity: 0.2;
+ }

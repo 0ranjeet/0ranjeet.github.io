@@ -1,0 +1,187 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "<RS/>" [ref=e4] [cursor=pointer]:
+      - /url: ../index.html
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: ../index.html
+      - listitem [ref=e8]:
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: ../index.html#about
+      - listitem [ref=e10]:
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: ../services/index.html
+      - listitem [ref=e12]:
+        - link "Process" [ref=e13] [cursor=pointer]:
+          - /url: ../process/index.html
+      - listitem [ref=e14]:
+        - link "Projects" [ref=e15] [cursor=pointer]:
+          - /url: ../projects/index.html
+      - listitem [ref=e16]:
+        - link "Blog" [ref=e17] [cursor=pointer]:
+          - /url: ../blog/index.html
+      - listitem [ref=e18]:
+        - link "Contact" [ref=e19] [cursor=pointer]:
+          - /url: ../index.html#contact
+    - generic [ref=e20]:
+      - generic "Switch AI / Human theme" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: Human
+      - link "Resume" [ref=e25] [cursor=pointer]:
+        - /url: ../Ranjeet_sahoo_resume.pdf
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: // what i offer
+      - heading "Services" [level=1] [ref=e30]
+      - paragraph [ref=e31]: Whether you want to build a product, rank on Google, run ads, grow your brand, or streamline operations — I cover the full picture.
+    - generic [ref=e33]: "[service-summary] > build clean websites, portals, and internal tools > automate repetitive work with practical AI flows > improve search visibility and content structure > design branding and UX that stays consistent > support delivery with consulting and technical direction"
+    - generic [ref=e34]:
+      - paragraph [ref=e35]:
+        - link "Projects" [ref=e36] [cursor=pointer]:
+          - /url: ../projects/index.html
+        - text: — see completed systems and product work.
+      - paragraph [ref=e37]:
+        - link "Blog" [ref=e38] [cursor=pointer]:
+          - /url: ../blog/index.html
+        - text: — read decision guides before building.
+      - paragraph [ref=e39]:
+        - link "Blog Services" [ref=e40] [cursor=pointer]:
+          - /url: ../blog/services/index.html
+        - text: — compare ERP, AI automation, and strategy service paths.
+      - paragraph [ref=e41]:
+        - link "Contact" [ref=e42] [cursor=pointer]:
+          - /url: ../index.html#contact
+        - text: — start a project or ask a question.
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e50]: ~/services/fullstack_dev.sh
+        - generic [ref=e51]:
+          - generic [ref=e52]: $ run --service-type fullstack
+          - heading "Fullstack Web Development" [level=3] [ref=e53]
+          - paragraph [ref=e54]: End-to-end web applications built from scratch — fast, scalable, and production-ready. Covers everything from the user interface to the server, database, and deployment.
+          - generic [ref=e55]: "[Outputs]"
+          - generic [ref=e56]:
+            - generic [ref=e57]: Web App
+            - generic [ref=e58]: React
+            - generic [ref=e59]: Node.js
+            - generic [ref=e60]: REST API
+      - generic [ref=e61]:
+        - generic [ref=e67]: ~/services/landing_pages.py
+        - generic [ref=e68]:
+          - generic [ref=e69]: $ python build_marketing.py
+          - heading "Business Sites & Landing Pages" [level=3] [ref=e70]
+          - paragraph [ref=e71]: Professional websites that convert visitors into customers. Clean design, mobile-first, fast loading, and built to rank on Google. Perfect for local businesses, service providers, and startups.
+          - generic [ref=e72]: "[Outputs]"
+          - generic [ref=e73]:
+            - generic [ref=e74]: Business Site
+            - generic [ref=e75]: Landing Page
+            - generic [ref=e76]: Mobile-First
+            - generic [ref=e77]: Fast Load
+      - generic [ref=e78]:
+        - generic [ref=e84]: ~/services/seo_optimizer.go
+        - generic [ref=e85]:
+          - generic [ref=e86]: $ go run seo_audit.go
+          - heading "SEO & Search Visibility" [level=3] [ref=e87]
+          - paragraph [ref=e88]: Get found on Google by people already looking for what you offer. On-page SEO, technical fixes, content structure, local SEO, and keyword strategy — so the right people find you first.
+          - generic [ref=e89]: "[Outputs]"
+          - generic [ref=e90]:
+            - generic [ref=e91]: On-page SEO
+            - generic [ref=e92]: Local SEO
+            - generic [ref=e93]: Keywords
+            - generic [ref=e94]: Rankings
+      - generic [ref=e95]:
+        - generic [ref=e101]: ~/services/brand_identity.cfg
+        - generic [ref=e102]:
+          - generic [ref=e103]: $ load --config brand_identity.cfg
+          - heading "Branding & Digital Identity" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Logo, colour palette, typography, and brand guidelines — giving your business a consistent, professional identity across your website, social media, and every customer touchpoint.
+          - generic [ref=e106]: "[Outputs]"
+          - generic [ref=e107]:
+            - generic [ref=e108]: Logo Design
+            - generic [ref=e109]: Brand Guide
+            - generic [ref=e110]: Identity
+            - generic [ref=e111]: Visual System
+      - generic [ref=e112]:
+        - generic [ref=e118]: ~/services/ad_campaigns.sh
+        - generic [ref=e119]:
+          - generic [ref=e120]: $ bash run_ads.sh --budget active
+          - heading "Digital Advertising" [level=3] [ref=e121]
+          - paragraph [ref=e122]: Paid campaigns on Google, Facebook, and Instagram that bring real leads — not just impressions. Ad copy, audience targeting, budget planning, and conversion tracking handled end to end.
+          - generic [ref=e123]: "[Outputs]"
+          - generic [ref=e124]:
+            - generic [ref=e125]: Google Ads
+            - generic [ref=e126]: Meta Ads
+            - generic [ref=e127]: Targeting
+            - generic [ref=e128]: Lead Gen
+      - generic [ref=e129]:
+        - generic [ref=e135]: ~/services/ai_pipeline.py
+        - generic [ref=e136]:
+          - generic [ref=e137]: $ python generate_llm_flow.py
+          - heading "AI & Automation" [level=3] [ref=e138]
+          - paragraph [ref=e139]: Add AI to your existing business — smart chatbots, automated replies, content generation, intelligent dashboards. Save hours of manual work every week without hiring more people.
+          - generic [ref=e140]: "[Outputs]"
+          - generic [ref=e141]:
+            - generic [ref=e142]: AI Chatbot
+            - generic [ref=e143]: Automation
+            - generic [ref=e144]: OpenAI
+            - generic [ref=e145]: Workflows
+      - generic [ref=e146]:
+        - generic [ref=e152]: ~/services/erp_architect.java
+        - generic [ref=e153]:
+          - generic [ref=e154]: $ javac ERPArchitect.java && java ERPArchitect
+          - heading "Business Operations Software" [level=3] [ref=e155]
+          - paragraph [ref=e156]: Custom internal tools, ERP systems, booking platforms, inventory management, and dashboards — built to match exactly how your business works, not a generic off-the-shelf product.
+          - generic [ref=e157]: "[Outputs]"
+          - generic [ref=e158]:
+            - generic [ref=e159]: ERP
+            - generic [ref=e160]: Booking
+            - generic [ref=e161]: Inventory
+            - generic [ref=e162]: Dashboard
+      - generic [ref=e163]:
+        - generic [ref=e169]: ~/services/ui_ux_framer.json
+        - generic [ref=e170]:
+          - generic [ref=e171]: $ cat ui_ux_framer.json | grep layout
+          - heading "UI/UX Design" [level=3] [ref=e172]
+          - paragraph [ref=e173]: Wireframes and high-fidelity mockups approved before a single line of code is written. Clean, intuitive interfaces that reduce confusion, increase conversions, and work on every device.
+          - generic [ref=e174]: "[Outputs]"
+          - generic [ref=e175]:
+            - generic [ref=e176]: Figma
+            - generic [ref=e177]: Wireframes
+            - generic [ref=e178]: Prototypes
+            - generic [ref=e179]: Responsive
+      - generic [ref=e180]:
+        - generic [ref=e186]: ~/services/helpdesk_manager.sh
+        - generic [ref=e187]:
+          - generic [ref=e188]: $ ./helpdesk_manager.sh --status check
+          - heading "Service Desk & ITSM" [level=3] [ref=e189]
+          - paragraph [ref=e190]: A proper ticketing and support system for your team — so nothing falls through the cracks. SLA tracking, priority queues, customer portal, and full response-time analytics.
+          - generic [ref=e191]: "[Outputs]"
+          - generic [ref=e192]:
+            - generic [ref=e193]: Help Desk
+            - generic [ref=e194]: Ticketing
+            - generic [ref=e195]: SLA
+            - generic [ref=e196]: Analytics
+      - generic [ref=e197]:
+        - generic [ref=e203]: ~/services/tech_strategy.conf
+        - generic [ref=e204]:
+          - generic [ref=e205]: $ cat tech_strategy.conf | head -n 4
+          - heading "Tech Consulting & Strategy" [level=3] [ref=e206]
+          - paragraph [ref=e207]: Not sure what you need? I help businesses figure out the right technology decisions — what to build, what to buy, how to prioritize, and what to avoid. Clear thinking, no upselling.
+          - generic [ref=e208]: "[Outputs]"
+          - generic [ref=e209]:
+            - generic [ref=e210]: Strategy
+            - generic [ref=e211]: Architecture
+            - generic [ref=e212]: MVP
+            - generic [ref=e213]: Audit
+  - generic [ref=e216]:
+    - generic [ref=e217]:
+      - paragraph [ref=e218]: // want the full picture?
+      - paragraph [ref=e219]: Read practical guides on ERP systems, automation, and digital transformation for business owners.
+    - link "Read the Blog" [ref=e220] [cursor=pointer]:
+      - /url: ../blog/index.html
+      - img [ref=e221]
+      - text: Read the Blog
+  - contentinfo [ref=e224]:
+    - 'link "← Back to Home" [ref=e225] [cursor=pointer]':
+      - /url: ../index.html
+    - paragraph [ref=e226]: © 2026 Ranjeet Sahoo. All rights reserved.

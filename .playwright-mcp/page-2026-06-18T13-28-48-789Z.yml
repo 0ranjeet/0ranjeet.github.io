@@ -1,0 +1,57 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "<RS/>" [ref=e4] [cursor=pointer]:
+      - /url: ../index.html
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Home" [ref=e7] [cursor=pointer]:
+          - /url: ../index.html
+      - listitem [ref=e8]:
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: ../#about
+      - listitem [ref=e10]:
+        - link "Services" [ref=e11] [cursor=pointer]:
+          - /url: ../services/index.html
+      - listitem [ref=e12]:
+        - link "Process" [ref=e13] [cursor=pointer]:
+          - /url: ../process/index.html
+      - listitem [ref=e14]:
+        - link "Projects" [ref=e15] [cursor=pointer]:
+          - /url: ../projects/index.html
+      - listitem [ref=e16]:
+        - link "Blog" [ref=e17] [cursor=pointer]:
+          - /url: ../blog/index.html
+      - listitem [ref=e18]:
+        - link "Contact" [ref=e19] [cursor=pointer]:
+          - /url: ../#contact
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - paragraph [ref=e23]: // what i offer
+      - heading "Services" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Whether you want to build a product, rank on Google, run ads, grow your brand, or streamline operations â€” I cover the full picture.
+    - generic [ref=e27]: "[service-summary] > build clean websites, portals, and internal tools > automate repetitive work with practical AI flows > improve search visibility and content structure > design branding and UX that stays consistent > support delivery with consulting and technical direction"
+    - generic [ref=e28]:
+      - paragraph [ref=e29]:
+        - link "Projects" [ref=e30] [cursor=pointer]:
+          - /url: ../projects/index.html
+        - text: — see completed systems and product work.
+      - paragraph [ref=e31]:
+        - link "Blog" [ref=e32] [cursor=pointer]:
+          - /url: ../blog/index.html
+        - text: — read decision guides before building.
+      - paragraph [ref=e33]:
+        - link "Contact" [ref=e34] [cursor=pointer]:
+          - /url: ../index.html#contact
+        - text: — start a project or ask a question.
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - paragraph [ref=e39]: // want the full picture?
+      - paragraph [ref=e40]: Read practical guides on ERP systems, automation, and digital transformation for business owners.
+    - link "Read the Blog" [ref=e41] [cursor=pointer]:
+      - /url: ../blog/index.html
+      - img [ref=e42]
+      - text: Read the Blog
+  - contentinfo [ref=e45]:
+    - 'link "← Back to Home" [ref=e46] [cursor=pointer]':
+      - /url: ../index.html
+    - paragraph [ref=e47]: © 2026 Ranjeet Sahoo. All rights reserved.
